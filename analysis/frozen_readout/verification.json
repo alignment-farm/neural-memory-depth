@@ -1,0 +1,54 @@
+{
+  "frozen_files_and_inputs_verified": true,
+  "checks": [
+    {
+      "case": "value_confusion",
+      "mode": "released",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    },
+    {
+      "case": "value_confusion",
+      "mode": "complete",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    },
+    {
+      "case": "key_confusion",
+      "mode": "released",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    },
+    {
+      "case": "key_confusion",
+      "mode": "complete",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    },
+    {
+      "case": "successful_control",
+      "mode": "released",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    },
+    {
+      "case": "successful_control",
+      "mode": "complete",
+      "nonhead_state_unchanged": true,
+      "all_original_and_probe_metrics_exact": true,
+      "training_feature_and_normalization_verified": true,
+      "folded_graph_metrics_exact": true
+    }
+  ],
+  "verifier_sha256": "e2d46d4765de0dd8853810e33107254c31465d89ca51741c339c412679e7a40a"
+}

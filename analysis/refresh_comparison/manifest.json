@@ -1,0 +1,53 @@
+{
+  "files": {
+    "notes/REFRESH_COMPARISON_PROTOCOL.md": "1851766aea28c73199bc487d259c01c0d057f62c8d428d4a625821fa9275aa71",
+    "scripts/run_refresh_comparison.py": "e9f6ef912788f8a5f9de179037f7d1757b3cb060a148ccfd242dd89961299a3b",
+    "scripts/run_recall_pilot.py": "de9150ce911cfc0d53065c3edf5f6dc1891c8037f404b351657a9248c0161ba4",
+    "scripts/check_graph_gradients.py": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030",
+    "scripts/check_refresh_preflight.py": "f61d746d2aae76ff4743d8c1dd3d389a8ff3300e4751a10c8dca22caf81acde7"
+  },
+  "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "torch": "2.14.0",
+  "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "chunks": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "depths": [
+    1,
+    2
+  ],
+  "seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": 600,
+  "splits": {
+    "train": {
+      "episodes": 32000,
+      "sha256": "9e1d93f514b016773bca208673cbc7491f32b8cdd076abd2f2e1a49503926458"
+    },
+    "validation": {
+      "episodes": 4096,
+      "sha256": "a502596af331c3b3e140c1aa1bfe8835eb22d127a1409cdd32df2da6ddbb12b1"
+    },
+    "test": {
+      "episodes": 4224,
+      "sha256": "c71e04a0db66eddae6b59d7a5ce7e4bfb81fc395b3af4f6d90f9272498e8222d"
+    }
+  },
+  "preflight_sha256": "8f0283b4fe459020bfb068add25870e9246d4dc7298123a72a7e1502f2fe58c1"
+}

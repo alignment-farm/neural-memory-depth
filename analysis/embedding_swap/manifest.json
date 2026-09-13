@@ -1,0 +1,141 @@
+{
+  "files": {
+    "notes/EMBEDDING_SWAP_PROTOCOL.md": "d8dcb8041850436e6dc992758bf4d4fd97024758bd730a7a667beab6255d03dc",
+    "scripts/run_embedding_swap.py": "07b12cfe0f473b6204d6d1ba5d144ccb4f2168414ae7b60b8a273b7c67b51aee",
+    "scripts/check_embedding_preflight.py": "828f36e6c6c94ccc9eccc20d9888afceab2c2e0a44a75ffa9fbc447ce4fe5468",
+    "scripts/run_group_swap.py": "5cabb2e71b75d26c31ea99cb429427393d1a244c5afe4459866ea0e5b9915d49",
+    "scripts/run_seed_separation.py": "84e0aef3843d409ead288f2456fdc557f02138712cd05497ab7de4d40438e1cf",
+    "scripts/run_refresh_comparison.py": "e9f6ef912788f8a5f9de179037f7d1757b3cb060a148ccfd242dd89961299a3b",
+    "scripts/run_recall_pilot.py": "de9150ce911cfc0d53065c3edf5f6dc1891c8037f404b351657a9248c0161ba4",
+    "scripts/check_graph_gradients.py": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030"
+  },
+  "donor_files": {
+    "analysis/group_swap/m16-e11-r16-t10.json": "4ea19990c4393843386c765ed5845a7a0ce7f4e166a96334986610fdc9290a46",
+    "analysis/group_swap/m16-e11-r16-t11.json": "4b4960f51eb5ecfd2259906381bec9f173102a988b140373ee40e554767e4617",
+    "analysis/group_swap/m16-e11-r16-t12.json": "629e98ea5f581510187e732e8b50ac1ef0170a3b1963013322e1a2ce9cb24413",
+    "analysis/group_swap/m16-e11-r16-t13.json": "caa5cb465c896f5d36fe558eea03bfc31a306adfee7f7321c7808a4deb6c034b",
+    "analysis/group_swap/m16-e11-r16-t14.json": "2b5492ba9e3438ae43ce242b6a04c0eabb8eafcdff486c2fd7c5380a61f60dd8",
+    "analysis/group_swap/m16-e11-r16-t15.json": "43d7955005f33a90290fd47f9b8bb99db0e6afee0b8b54254b7341f990d0b518",
+    "analysis/group_swap/m16-e11-r16-t16.json": "1c655946fab2e439c6af7b86efa21a4bad934ffeeea5c763a1db38efeb9aa07a",
+    "analysis/group_swap/m16-e11-r16-t17.json": "e820fd5df8fc7d834f3c17ba3a7f3a213a055575bfead6299d982b4ee793bdd3",
+    "analysis/group_swap/m16-e11-r16-t18.json": "2826485dfb1259ed7bdf47d994ee6693c5637fe3bb24b627763b5e225616907b",
+    "analysis/group_swap/m16-e11-r16-t19.json": "a93cefd211b9cc4e9077b5c8da9b3016d86749a97879d5cb9485087d25ebf552",
+    "analysis/group_swap/m16-e16-r16-t10.json": "87c8e3ccf2958436ab735b1ade91ce4f9e3ca892f17038af7edc7306b23d021a",
+    "analysis/group_swap/m16-e16-r16-t11.json": "9131072206e3851e6d108cfff88836d1bc2d71135d1e33e48c61c3cdfb837078",
+    "analysis/group_swap/m16-e16-r16-t12.json": "801d44a33fcf94b03dbeebde7f5383b8dfa4791f8773497285fbaa8bf2cef6f9",
+    "analysis/group_swap/m16-e16-r16-t13.json": "f41dc95e5c06016db29c5f101f959b711eef06b77b495530b52de02ed81703f3",
+    "analysis/group_swap/m16-e16-r16-t14.json": "993ec742eb184e595ea7543f980721be9e8a455660b976c8d3c14fccea4e2d5a",
+    "analysis/group_swap/m16-e16-r16-t15.json": "af2d58497371d07d60a4659b1ae557ef3bcf53b86181a13fbd25f81275fadb8d",
+    "analysis/group_swap/m16-e16-r16-t16.json": "4b4a27db9d213953f982dfe670c309f0e13fd05c3ee1edf38fbdb105fbb50287",
+    "analysis/group_swap/m16-e16-r16-t17.json": "10e8d32d2f5d73a46a9a91fa8641865bfef40154e897b8c8e320fbcfdd9a7868",
+    "analysis/group_swap/m16-e16-r16-t18.json": "0f48f623840d32a6d7e2588a2f1e356ff0ddf3342022b5913c5e43e8c3a8cf66",
+    "analysis/group_swap/m16-e16-r16-t19.json": "bbc430e4f001cb05480ad3d05f6c1a21827a9a958694b47e35d509935b47ed22",
+    "analysis/group_swap/manifest.json": "18285c239eeb696f0eef39985aaf8ef79fee565c2e329c7154790ab033b5bb09",
+    "analysis/group_swap/verification.json": "46099965b0b67c05fd19905274e2d339ae1bfc2d26e6fd08c82f83098d3de822",
+    "analysis/group_swap/preflight.json": "580ab57749481de4f0dfb0b3bc77a35615342358eb65526b15c3e1d5dbcd6b76"
+  },
+  "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "torch": "2.14.0",
+  "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "configurations": [
+    {
+      "query": 11,
+      "key": 11,
+      "value": 11
+    },
+    {
+      "query": 11,
+      "key": 11,
+      "value": 16
+    },
+    {
+      "query": 11,
+      "key": 16,
+      "value": 11
+    },
+    {
+      "query": 11,
+      "key": 16,
+      "value": 16
+    },
+    {
+      "query": 16,
+      "key": 11,
+      "value": 11
+    },
+    {
+      "query": 16,
+      "key": 11,
+      "value": 16
+    },
+    {
+      "query": 16,
+      "key": 16,
+      "value": 11
+    },
+    {
+      "query": 16,
+      "key": 16,
+      "value": 16
+    }
+  ],
+  "stream_seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": 600,
+  "new_models": 120,
+  "reused_models": 40,
+  "preflight_sha256": "b1f98d89cd8208b35947a2c6cdf7da4edb3e85b3e750eb833545a990e817bdfe",
+  "fixed_non_embedding_donor": 16,
+  "parameter_groups": {
+    "q.weight": "query",
+    "k.weight": "key",
+    "v.weight": "value",
+    "rates.weight": null,
+    "rates.bias": null,
+    "decays.weight": null,
+    "decays.bias": null,
+    "memory.hidden_modules.w0.weight": null,
+    "memory.hidden_modules.w1.weight": null,
+    "norm.weight": null,
+    "norm.bias": null,
+    "head.weight": null,
+    "head.bias": null
+  },
+  "initial_hashes": {
+    "q11-k11-v11": "a02bdba7777744618a5086fab6d5da9be42f9d8b8e0f35a6b9e8ae5dee4546dc",
+    "q11-k11-v16": "77e3e5feaca5b56f0daaff654d3f645242b7689215b70a4e996c390d30ad28a4",
+    "q11-k16-v11": "b27bd4b16d321d03473f11f04b8057141eb67d31e3463bcd3ec2efce26977da9",
+    "q11-k16-v16": "ed415b43c229b89aa206e71cdc08ee7bd7fdd112318fbf0308be1888f1f50800",
+    "q16-k11-v11": "da0f7003ca0727fd5522b9e186a79cf5a287246b559253b420512aba88e3e75b",
+    "q16-k11-v16": "58174f854d7ca3aa963eaf54eb82747b14459392098a655571711ce43cdb4ffd",
+    "q16-k16-v11": "ce012c6fc8d6d9b93d4c67a0e46b4085749a31c4487698c6a944c4f6d4e21212",
+    "q16-k16-v16": "664d3adb0d4eda7ff5767c9114e84a3a80e827ddcf0e1783a0c943c6655cc131"
+  },
+  "splits": {
+    "train": {
+      "episodes": 32000,
+      "sha256": "9e1d93f514b016773bca208673cbc7491f32b8cdd076abd2f2e1a49503926458"
+    },
+    "validation": {
+      "episodes": 4096,
+      "sha256": "a502596af331c3b3e140c1aa1bfe8835eb22d127a1409cdd32df2da6ddbb12b1"
+    },
+    "test": {
+      "episodes": 4224,
+      "sha256": "c71e04a0db66eddae6b59d7a5ce7e4bfb81fc395b3af4f6d90f9272498e8222d"
+    }
+  }
+}

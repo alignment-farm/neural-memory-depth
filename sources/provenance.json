@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-13T16:54:05.704687+00:00",
+  "papers": [
+    {
+      "paper": "2501.00663v1",
+      "url": "https://arxiv.org/html/2501.00663v1",
+      "local_sha256": "a225d29bc57c2ccbc7e553c409cefae1088bfc44f00080cc744fd0ba5b8a59af",
+      "status": 200,
+      "retrieved_sha256": "a225d29bc57c2ccbc7e553c409cefae1088bfc44f00080cc744fd0ba5b8a59af",
+      "byte_identical": true
+    },
+    {
+      "paper": "2608.07110v1",
+      "url": "https://arxiv.org/html/2608.07110v1",
+      "local_sha256": "7733da013aa232ce6fc1678daf2dd1b9c4a31705dac18a39616f06ff11fb75df",
+      "status": 200,
+      "retrieved_sha256": "7733da013aa232ce6fc1678daf2dd1b9c4a31705dac18a39616f06ff11fb75df",
+      "byte_identical": true
+    },
+    {
+      "paper": "2407.04620v4",
+      "url": "https://arxiv.org/html/2407.04620v4",
+      "local_sha256": "2119277c910832a78fbaa20727c73c17f0e1e8796b15f3b6d01806cc573fd8e7",
+      "status": 200,
+      "retrieved_sha256": "2119277c910832a78fbaa20727c73c17f0e1e8796b15f3b6d01806cc573fd8e7",
+      "byte_identical": true
+    }
+  ],
+  "conference_followup": {
+    "checked_at": "2026-09-13T17:58:52.623324+00:00",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/a4ca07aa108036f80cbb5b82285fd4b1-Paper-Conference.pdf",
+    "path": "sources/titans-neurips2025.pdf",
+    "sha256": "9b0f0c4a0163abab6bc2f8acb105ae3c95f3fff25573aa71a252b0b9c040bf78",
+    "pages": 38,
+    "arxiv_version_mapping": "unverified",
+    "metadata_followup": "Single query API request timed out after 40 seconds; no response body."
+  }
+}

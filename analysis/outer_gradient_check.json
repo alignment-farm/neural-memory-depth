@@ -1,0 +1,140 @@
+{
+  "kind": "CPU float64 isolated differentiation witness; no trained model or language-model result",
+  "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "sources": [
+    {
+      "path": "modular_ttt/modular_ttt/utils/utils.py",
+      "sha256": "eda2b51e168fb53df404a0e965587b041a02ea16fcf36ed4963036aeeb5a6762",
+      "definitions": [
+        "contiguous"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/layer/linear.py",
+      "sha256": "d8d02dc9d3e71aa08160255896c5900468b40edaad3bd3ca0df06ad9ba3f74a9",
+      "definitions": [
+        "LinearGradFn",
+        "linear_grad"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/layer/act.py",
+      "sha256": "ced1579c10ef84946f9d3f7b7245af4ae61c56505e584b8dff5cb9084a85baea",
+      "definitions": [
+        "_get_act_grad",
+        "ActGradFn",
+        "act_grad"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/loss/mse.py",
+      "sha256": "18c77cf43f01e80126fb43a1681859746e9c47ecb7ac78ab7e730d8d0a4369b5",
+      "definitions": [
+        "MSELossGradFn",
+        "mse_loss_grad"
+      ]
+    }
+  ],
+  "script_sha256": "93f3814a943e1d34c2252443fb42f9045875491c9ec05f9fadef576a96d813c1",
+  "runtime": {
+    "torch": "2.14.0",
+    "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+    "python": "3.13.12",
+    "device": "cpu",
+    "dtype": "float64"
+  },
+  "primitive": {
+    "forward_max_abs_difference": 0.0,
+    "released_weight_derivative": null,
+    "full_weight_derivative": [
+      [
+        [
+          [
+            0.4,
+            -0.2
+          ],
+          [
+            0.4,
+            -0.2
+          ]
+        ]
+      ]
+    ],
+    "released_gradcheck_passed": false,
+    "complete_vjp_gradcheck_passed": true
+  },
+  "cases": [
+    {
+      "seed": 0,
+      "depth": 1,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.0,
+      "full_vs_central_difference_max_abs_error": 1.1111112030448567e-11,
+      "released_vs_central_difference_max_abs_error": 1.1111112030448567e-11,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    },
+    {
+      "seed": 0,
+      "depth": 2,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.0015051920684266903,
+      "full_vs_central_difference_max_abs_error": 7.778243327205558e-12,
+      "released_vs_central_difference_max_abs_error": 0.001505192060648447,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    },
+    {
+      "seed": 1,
+      "depth": 1,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.0,
+      "full_vs_central_difference_max_abs_error": 4.459446700799674e-12,
+      "released_vs_central_difference_max_abs_error": 4.459446700799674e-12,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    },
+    {
+      "seed": 1,
+      "depth": 2,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.00028170517898966525,
+      "full_vs_central_difference_max_abs_error": 6.1346856414234985e-12,
+      "released_vs_central_difference_max_abs_error": 0.00028170518134075506,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    },
+    {
+      "seed": 2,
+      "depth": 1,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.0,
+      "full_vs_central_difference_max_abs_error": 2.9268809598193e-12,
+      "released_vs_central_difference_max_abs_error": 2.9268809598193e-12,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    },
+    {
+      "seed": 2,
+      "depth": 2,
+      "output_max_abs_difference": 0.0,
+      "adapted_weight_max_abs_difference": 0.0,
+      "released_vs_full_outer_gradient_max_abs_difference": 0.002904084206500457,
+      "full_vs_central_difference_max_abs_error": 7.172783200726229e-12,
+      "released_vs_central_difference_max_abs_error": 0.002904084203419574,
+      "released_vs_explicit_stop_transport_gradient_max_abs_error": 0.0,
+      "complete_vjp_vs_full_outer_gradient_max_abs_error": 0.0
+    }
+  ],
+  "limits": [
+    "No CUDA or fused kernels executed.",
+    "Only single-token one-step Linear-SiLU and Linear-SiLU-Linear-SiLU witnesses.",
+    "No inference about which source revision produced paper tables.",
+    "Omission may be deliberate; no language-model effect size measured."
+  ]
+}

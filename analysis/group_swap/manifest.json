@@ -1,0 +1,139 @@
+{
+  "files": {
+    "notes/GROUP_SWAP_PROTOCOL.md": "f30838ed6d79baad4dd679f60a8666d4515984d4ef5339ebbbfb92805c91232c",
+    "scripts/run_group_swap.py": "5cabb2e71b75d26c31ea99cb429427393d1a244c5afe4459866ea0e5b9915d49",
+    "scripts/check_group_preflight.py": "0fb6efff0fd7472ba31fa984dd701355583af4545d85f5ebe5ae3e1be4bdd34f",
+    "scripts/run_seed_separation.py": "84e0aef3843d409ead288f2456fdc557f02138712cd05497ab7de4d40438e1cf",
+    "scripts/run_refresh_comparison.py": "e9f6ef912788f8a5f9de179037f7d1757b3cb060a148ccfd242dd89961299a3b",
+    "scripts/run_recall_pilot.py": "de9150ce911cfc0d53065c3edf5f6dc1891c8037f404b351657a9248c0161ba4",
+    "scripts/check_graph_gradients.py": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030"
+  },
+  "donor_files": {
+    "analysis/seed_separation/i11-t10.json": "3acd3ab094580cc2300bbea18ebaf7ccaaeb8be52a734e29ba5311ff5855f9a5",
+    "analysis/seed_separation/i11-t11.json": "280a842ba364f0033c6b8160d4e920255dbf4e6b40c1dfa0656558cb5985df09",
+    "analysis/seed_separation/i11-t12.json": "3f757212c09d381754d26d44b82fd9dc42e926e9965aa12aa958ebd1dfd7b377",
+    "analysis/seed_separation/i11-t13.json": "fc4407af5da9edf3dd13c1bd8535c4c12abc82a776add229338880851ed07ea2",
+    "analysis/seed_separation/i11-t14.json": "4a31c3e2285ecb1b211a0c4fd31f7168315d671b23fa0469489f7fced01ccac1",
+    "analysis/seed_separation/i11-t15.json": "6c48232efdebaa703280ea329c96dd81a8a3626ef4f79917b954a642ebd7e897",
+    "analysis/seed_separation/i11-t16.json": "f9af5c3c6e39092d7617c8d6068ebc552dffefe5a0101f2dd0b90587b2ff213a",
+    "analysis/seed_separation/i11-t17.json": "542f48619ddf2dd8030ec972fcfd2f39fefb686fce4506fb4945d43ce1e966b0",
+    "analysis/seed_separation/i11-t18.json": "3a0d4c16071a7dc0ce84a691473bcbe2cb7e7838ff9df95f9c1cf13c60c558c3",
+    "analysis/seed_separation/i11-t19.json": "8436ccf53c4376d569ed0c029edfd07a710684d4be6ff4627cf7ae9e7f336909",
+    "analysis/seed_separation/i16-t10.json": "24cb4bb051a471aa41c5d109e4e7cdecadedee8052e72fbb09d54b1fff6bbb63",
+    "analysis/seed_separation/i16-t11.json": "e5032aacce38d0ce2dbd938d38bfcc3036fa13aaeb13a4236cbc1a0bd0351c3d",
+    "analysis/seed_separation/i16-t12.json": "fea1aa05ceac2af0807dda9f6c661e0cd58560b42927cb2740511622a15152a1",
+    "analysis/seed_separation/i16-t13.json": "8d49916da95f1d06633ef608297959ff184d7eea8d03e95125aec986a84c031e",
+    "analysis/seed_separation/i16-t14.json": "bb9eab5b155a175f18d4625e1a22c06955fec22fd02271167ecbed079dcc4521",
+    "analysis/seed_separation/i16-t15.json": "4b47128dfac0d2c5101a6efe19a5424d58c2573cc4f569abf37ab5c5d8193e41",
+    "analysis/seed_separation/i16-t16.json": "a66d668c2e4c422511c95bf91274064e5dd3937815b3bb347690234c20cab014",
+    "analysis/seed_separation/i16-t17.json": "ba3460d536a572333ec9fa8a99144b380747af57318cb64161344a1cba6406a6",
+    "analysis/seed_separation/i16-t18.json": "e766405d5d2bbccf45d853b7dacf2c9ec00409096910c6f5d15b447b5b1621e7",
+    "analysis/seed_separation/i16-t19.json": "bd5f2d6f52f7c5525d34a32b3a8886a7bd864fbea553d9e5f7eead2a129cf3a1",
+    "analysis/seed_separation/manifest.json": "fff93aaefc37134bbc0757167c324fba4ac487f0affa9e7a29f04337bb8a4f55",
+    "analysis/seed_separation/verification.json": "b1d07f3d7baeeabddcea7287681ddd4b91dbd0454e60cd7ca7a0ba5de3abcc9d",
+    "analysis/seed_separation/preflight.json": "dab76362a53ea0f1e071ba219efd067e563eda4f1f17806860698892155bbb62"
+  },
+  "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "torch": "2.14.0",
+  "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "configurations": [
+    {
+      "memory": 11,
+      "embeddings": 11,
+      "readout": 11
+    },
+    {
+      "memory": 11,
+      "embeddings": 11,
+      "readout": 16
+    },
+    {
+      "memory": 11,
+      "embeddings": 16,
+      "readout": 11
+    },
+    {
+      "memory": 11,
+      "embeddings": 16,
+      "readout": 16
+    },
+    {
+      "memory": 16,
+      "embeddings": 11,
+      "readout": 11
+    },
+    {
+      "memory": 16,
+      "embeddings": 11,
+      "readout": 16
+    },
+    {
+      "memory": 16,
+      "embeddings": 16,
+      "readout": 11
+    },
+    {
+      "memory": 16,
+      "embeddings": 16,
+      "readout": 16
+    }
+  ],
+  "stream_seeds": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": 600,
+  "new_models": 120,
+  "reused_models": 40,
+  "preflight_sha256": "580ab57749481de4f0dfb0b3bc77a35615342358eb65526b15c3e1d5dbcd6b76",
+  "parameter_groups": {
+    "q.weight": "embeddings",
+    "k.weight": "embeddings",
+    "v.weight": "embeddings",
+    "rates.weight": null,
+    "rates.bias": null,
+    "decays.weight": null,
+    "decays.bias": null,
+    "memory.hidden_modules.w0.weight": "memory",
+    "memory.hidden_modules.w1.weight": "memory",
+    "norm.weight": null,
+    "norm.bias": null,
+    "head.weight": "readout",
+    "head.bias": "readout"
+  },
+  "initial_hashes": {
+    "m11-e11-r11": "83bc0bcf5b50f3bd17159f5b2c76d454deead88f74b8fb7ac03309a33e931ad9",
+    "m11-e11-r16": "e093f31c238375f4d4150a75fd72279c2e350c9b478b5f09c53f0a7b5591ebfc",
+    "m11-e16-r11": "324a591c87b873a75964a4defe7f54693d03957dfadfd10ff1ea1e6d6f41ca19",
+    "m11-e16-r16": "f3dbdf6004010efa9af05c11067c9756650fa9402ee607cdaae38c69f61baa72",
+    "m16-e11-r11": "709446f110ff916b796497e3ee2ca2ad2c32c73a2d6df17922529970a16eb72d",
+    "m16-e11-r16": "a02bdba7777744618a5086fab6d5da9be42f9d8b8e0f35a6b9e8ae5dee4546dc",
+    "m16-e16-r11": "40175015b765a21955b031dd4d6845cb4fbc2c5fe4d3fa94005ccfc4274dc4ba",
+    "m16-e16-r16": "664d3adb0d4eda7ff5767c9114e84a3a80e827ddcf0e1783a0c943c6655cc131"
+  },
+  "splits": {
+    "train": {
+      "episodes": 32000,
+      "sha256": "9e1d93f514b016773bca208673cbc7491f32b8cdd076abd2f2e1a49503926458"
+    },
+    "validation": {
+      "episodes": 4096,
+      "sha256": "a502596af331c3b3e140c1aa1bfe8835eb22d127a1409cdd32df2da6ddbb12b1"
+    },
+    "test": {
+      "episodes": 4224,
+      "sha256": "c71e04a0db66eddae6b59d7a5ce7e4bfb81fc395b3af4f6d90f9272498e8222d"
+    }
+  }
+}

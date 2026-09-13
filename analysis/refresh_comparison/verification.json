@@ -1,0 +1,1570 @@
+{
+  "protocol_code_and_source_hashes_verified": true,
+  "unique_mappings": 40320,
+  "split_overlap": 0,
+  "paired_starts_and_batches": [
+    {
+      "depth": 1,
+      "seed": 10,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "fd9fd7cfd0c37b0187d5b20075fa6425012aa6ab454bd65b71cf4be57a74de82"
+    },
+    {
+      "depth": 2,
+      "seed": 10,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "fd9fd7cfd0c37b0187d5b20075fa6425012aa6ab454bd65b71cf4be57a74de82"
+    },
+    {
+      "depth": 1,
+      "seed": 11,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "1e9f83f2eb362d48cf7233822ddd1f2e8722cdd1f5b7ba600c2159177d805f49"
+    },
+    {
+      "depth": 2,
+      "seed": 11,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "1e9f83f2eb362d48cf7233822ddd1f2e8722cdd1f5b7ba600c2159177d805f49"
+    },
+    {
+      "depth": 1,
+      "seed": 12,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "ff8de8727d15481094832301fbfce60ef8c75db081fd5c8c28c5ab83a6dd30c7"
+    },
+    {
+      "depth": 2,
+      "seed": 12,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "ff8de8727d15481094832301fbfce60ef8c75db081fd5c8c28c5ab83a6dd30c7"
+    },
+    {
+      "depth": 1,
+      "seed": 13,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "f2323ba46be48a26cd44e45a5768b8a48dbc51a8c1d615f015491af71b2aa562"
+    },
+    {
+      "depth": 2,
+      "seed": 13,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "f2323ba46be48a26cd44e45a5768b8a48dbc51a8c1d615f015491af71b2aa562"
+    },
+    {
+      "depth": 1,
+      "seed": 14,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "655a4f7080358abe901fcd5b7740d1bea73bcfcc385706b214857694d329f39c"
+    },
+    {
+      "depth": 2,
+      "seed": 14,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "655a4f7080358abe901fcd5b7740d1bea73bcfcc385706b214857694d329f39c"
+    },
+    {
+      "depth": 1,
+      "seed": 15,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "52307764c03da69c79ba3eccc34ce465c0ddbdda2364f52b57352c6bd4c5958c"
+    },
+    {
+      "depth": 2,
+      "seed": 15,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "52307764c03da69c79ba3eccc34ce465c0ddbdda2364f52b57352c6bd4c5958c"
+    },
+    {
+      "depth": 1,
+      "seed": 16,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "396ef1eea6cc4a501aa62e78728fd2f3f288ed03e897c3a9c5605d2af845790c"
+    },
+    {
+      "depth": 2,
+      "seed": 16,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "396ef1eea6cc4a501aa62e78728fd2f3f288ed03e897c3a9c5605d2af845790c"
+    },
+    {
+      "depth": 1,
+      "seed": 17,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "10015cfdc691b7756458fca95d66abd543c699b20d6f808092ed2b99638fd165"
+    },
+    {
+      "depth": 2,
+      "seed": 17,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "10015cfdc691b7756458fca95d66abd543c699b20d6f808092ed2b99638fd165"
+    },
+    {
+      "depth": 1,
+      "seed": 18,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "ad977f97c077f3fb57f03f078ddc33540707212673b13442dbfdcec2e6847213"
+    },
+    {
+      "depth": 2,
+      "seed": 18,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "ad977f97c077f3fb57f03f078ddc33540707212673b13442dbfdcec2e6847213"
+    },
+    {
+      "depth": 1,
+      "seed": 19,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "1200f97ddfa55a0574dc1f12bab37cab8c565b11710ddfaf348972784fc2f401"
+    },
+    {
+      "depth": 2,
+      "seed": 19,
+      "identical_initial_parameters_across_chunks": true,
+      "training_batch_hash_regenerated": "1200f97ddfa55a0574dc1f12bab37cab8c565b11710ddfaf348972784fc2f401"
+    }
+  ],
+  "checks": [
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 10,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 10,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 11,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 11,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 12,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 12,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 13,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 13,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 14,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 14,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 15,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 15,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 16,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 16,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 17,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 17,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 18,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 18,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 1,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 1,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 1,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 1,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 1,
+      "depth": 2,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 2,
+      "depth": 2,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 4,
+      "depth": 2,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 19,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "chunk": 8,
+      "depth": 2,
+      "seed": 19,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    }
+  ],
+  "verifier_sha256": "6be5f92cade77356ee88a59874cbbf007c65ed7b436dfabdb196cd66f2340bd0"
+}

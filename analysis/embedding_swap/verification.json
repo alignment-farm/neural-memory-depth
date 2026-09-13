@@ -1,0 +1,1783 @@
+{
+  "all_frozen_hashes_verified": true,
+  "all_group_tensor_origins_verified": true,
+  "regenerated_stream_hashes": {
+    "10": "fd9fd7cfd0c37b0187d5b20075fa6425012aa6ab454bd65b71cf4be57a74de82",
+    "11": "1e9f83f2eb362d48cf7233822ddd1f2e8722cdd1f5b7ba600c2159177d805f49",
+    "12": "ff8de8727d15481094832301fbfce60ef8c75db081fd5c8c28c5ab83a6dd30c7",
+    "13": "f2323ba46be48a26cd44e45a5768b8a48dbc51a8c1d615f015491af71b2aa562",
+    "14": "655a4f7080358abe901fcd5b7740d1bea73bcfcc385706b214857694d329f39c",
+    "15": "52307764c03da69c79ba3eccc34ce465c0ddbdda2364f52b57352c6bd4c5958c",
+    "16": "396ef1eea6cc4a501aa62e78728fd2f3f288ed03e897c3a9c5605d2af845790c",
+    "17": "10015cfdc691b7756458fca95d66abd543c699b20d6f808092ed2b99638fd165",
+    "18": "ad977f97c077f3fb57f03f078ddc33540707212673b13442dbfdcec2e6847213",
+    "19": "1200f97ddfa55a0574dc1f12bab37cab8c565b11710ddfaf348972784fc2f401"
+  },
+  "models_by_origin": {
+    "new": 120,
+    "reused_embedding_baseline": 40
+  },
+  "checks": [
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "checkpoint_and_all_final_metrics_verified": true
+    }
+  ],
+  "verifier_sha256": "ad4e9197546349ef395c904382204dabace4848c2de4a3ecd31cc3815b9afe62"
+}

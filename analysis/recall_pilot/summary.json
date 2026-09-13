@@ -1,0 +1,73 @@
+{
+  "paired_test_differences": [
+    {
+      "depth": 1,
+      "seed": 0,
+      "complete_minus_released_cross_entropy": 0.0,
+      "complete_minus_released_accuracy_pp": 0.0
+    },
+    {
+      "depth": 1,
+      "seed": 1,
+      "complete_minus_released_cross_entropy": 0.0,
+      "complete_minus_released_accuracy_pp": 0.0
+    },
+    {
+      "depth": 1,
+      "seed": 2,
+      "complete_minus_released_cross_entropy": 0.0,
+      "complete_minus_released_accuracy_pp": 0.0
+    },
+    {
+      "depth": 2,
+      "seed": 0,
+      "complete_minus_released_cross_entropy": 0.0008351080345385675,
+      "complete_minus_released_accuracy_pp": 0.06806344696969058
+    },
+    {
+      "depth": 2,
+      "seed": 1,
+      "complete_minus_released_cross_entropy": -0.00042261753344174577,
+      "complete_minus_released_accuracy_pp": 0.0
+    },
+    {
+      "depth": 2,
+      "seed": 2,
+      "complete_minus_released_cross_entropy": 0.00016449798237194724,
+      "complete_minus_released_accuracy_pp": -0.13908617424241987
+    }
+  ],
+  "group_means": [
+    {
+      "depth": 1,
+      "mode": "released",
+      "cross_entropy": 0.0016320427477529104,
+      "accuracy": 1.0,
+      "no_adaptation_accuracy": 0.12637113320707072
+    },
+    {
+      "depth": 1,
+      "mode": "complete",
+      "cross_entropy": 0.0016320427477529104,
+      "accuracy": 1.0,
+      "no_adaptation_accuracy": 0.12637113320707072
+    },
+    {
+      "depth": 2,
+      "mode": "released",
+      "cross_entropy": 0.5767784605456535,
+      "accuracy": 0.7078006628787878,
+      "no_adaptation_accuracy": 0.12522687815656566
+    },
+    {
+      "depth": 2,
+      "mode": "complete",
+      "cross_entropy": 0.5769707900401431,
+      "accuracy": 0.7075639204545454,
+      "no_adaptation_accuracy": 0.12329348169191919
+    }
+  ],
+  "training_seconds_total": 26.495406192785595,
+  "total_training_events": 3686400,
+  "deep_paired_cross_entropy_mean": 0.00019232949448958966
+}

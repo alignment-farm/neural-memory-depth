@@ -1,0 +1,103 @@
+{
+  "split_overlap": 0,
+  "unique_mappings": 40320,
+  "protocol_and_code_hashes_verified": true,
+  "checks": [
+    {
+      "depth": 1,
+      "seed": 0,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 1,
+      "seed": 0,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 1,
+      "seed": 1,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 1,
+      "seed": 1,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 1,
+      "seed": 2,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 1,
+      "seed": 2,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 0,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 0,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 1,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 1,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 2,
+      "mode": "released",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "depth": 2,
+      "seed": 2,
+      "mode": "complete",
+      "checkpoint_hash_verified": true,
+      "test_metrics_reproduced_exactly": true,
+      "no_adaptation_value_invariance": true
+    }
+  ]
+}

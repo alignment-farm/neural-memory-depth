@@ -1,0 +1,3552 @@
+{
+  "models_total": 160,
+  "new_models": 120,
+  "reused_models": 40,
+  "new_training_seconds": 359.72226500537363,
+  "new_training_events": 36864000,
+  "group_summaries": [
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "mode": "released",
+      "mean_test_ce": 0.0008440256603838255,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.5387935946836058
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "mode": "complete",
+      "mean_test_ce": 0.000984951348756581,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.553440972488717
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "mode": "released",
+      "mean_test_ce": 0.613057366447615,
+      "mean_test_accuracy": 0.7264766808712121,
+      "low_loss_streams": 6,
+      "mean_validation_auc": 1.3001247447409665
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "mode": "complete",
+      "mean_test_ce": 0.6439139886217714,
+      "mean_test_accuracy": 0.7139885179924242,
+      "low_loss_streams": 6,
+      "mean_validation_auc": 1.304211346643966
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "mode": "released",
+      "mean_test_ce": 0.9841141095067459,
+      "mean_test_accuracy": 0.5388139204545455,
+      "low_loss_streams": 1,
+      "mean_validation_auc": 1.7730557999805603
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "mode": "complete",
+      "mean_test_ce": 1.0399974359587456,
+      "mean_test_accuracy": 0.5258049242424242,
+      "low_loss_streams": 1,
+      "mean_validation_auc": 1.7871992517954642
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "mode": "released",
+      "mean_test_ce": 0.0010079830396341894,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.7363944620695919
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "mode": "complete",
+      "mean_test_ce": 0.0010493912622967566,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.7580305096032506
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "mode": "released",
+      "mean_test_ce": 0.0009483264446978203,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.7645113147279106
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "mode": "complete",
+      "mean_test_ce": 0.0011577040860147186,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.7754343754943385
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "mode": "released",
+      "mean_test_ce": 0.29101420490399255,
+      "mean_test_accuracy": 0.8622810132575758,
+      "low_loss_streams": 7,
+      "mean_validation_auc": 1.2477678765119444
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "mode": "complete",
+      "mean_test_ce": 0.29139294298647933,
+      "mean_test_accuracy": 0.8622691761363637,
+      "low_loss_streams": 7,
+      "mean_validation_auc": 1.243783498354869
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "mode": "released",
+      "mean_test_ce": 0.0012147773879185094,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.6467995910803341
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "mode": "complete",
+      "mean_test_ce": 0.0012103448099823613,
+      "mean_test_accuracy": 1.0,
+      "low_loss_streams": 10,
+      "mean_validation_auc": 0.6593047328798887
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "mode": "released",
+      "mean_test_ce": 0.9891601022445794,
+      "mean_test_accuracy": 0.530087002840909,
+      "low_loss_streams": 0,
+      "mean_validation_auc": 1.773108996405812
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "mode": "complete",
+      "mean_test_ce": 0.9707365653731606,
+      "mean_test_accuracy": 0.5366595643939394,
+      "low_loss_streams": 0,
+      "mean_validation_auc": 1.749185094187885
+    }
+  ],
+  "contrasts": [
+    {
+      "mode": "released",
+      "group": "query",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": 0.07219316990989631,
+          "replace_group_in_16_background": -1.7015484381558825,
+          "replace_group_in_11_background": 0.0003120223127277286
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": 0.39384377253009,
+          "replace_group_in_16_background": -0.6907130750319498,
+          "replace_group_in_11_background": 0.00034765573924012256
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.23339583265866773,
+          "replace_group_in_16_background": -1.3453066380885006,
+          "replace_group_in_11_background": -0.00024631374275706924
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": -0.16866431338888957,
+          "replace_group_in_16_background": -2.0210434550729888,
+          "replace_group_in_11_background": -0.00010336110029708244
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.043882417832995145,
+          "replace_group_in_16_background": -1.0061786636202175,
+          "replace_group_in_11_background": 2.877535933459342e-05
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.545430738693209,
+          "replace_group_in_16_background": -1.3431286238606623,
+          "replace_group_in_11_background": 0.00037485399904350436
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": 0.8159881900064647,
+          "replace_group_in_16_background": -0.4565866412965327,
+          "replace_group_in_11_background": -0.00020193986975672578
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": 0.48956247003066394,
+          "replace_group_in_16_background": -0.4400605237919301,
+          "replace_group_in_11_background": -0.00029616537645007633
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": 0.12667456456190188,
+          "replace_group_in_16_background": -0.4181840409873985,
+          "replace_group_in_11_background": 0.00011511172774727595
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11517368028227902,
+          "replace_group_in_16_background": -0.4587710921433895,
+          "replace_group_in_11_background": 0.0007123687943076771
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": 0.07917151841829764,
+        "replace_group_in_16_background": -0.9881521192049453,
+        "replace_group_in_11_background": 0.00010430078431399483
+      },
+      "marginal_range": [
+        -0.545430738693209,
+        0.8159881900064647
+      ]
+    },
+    {
+      "mode": "released",
+      "group": "key",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": -0.9234024156943302,
+          "replace_group_in_16_background": -1.7015753748798461,
+          "replace_group_in_11_background": 1.9914762567972173
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": 0.11159474727923446,
+          "replace_group_in_16_background": -0.6903295944070895,
+          "replace_group_in_11_background": 0.5652291868658115
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.43915764569872845,
+          "replace_group_in_16_background": -1.3445759934662473,
+          "replace_group_in_11_background": 0.4120079569596176
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": 0.008848914874816436,
+          "replace_group_in_16_background": -0.3196750048435093,
+          "replace_group_in_11_background": 1.3462386326017706
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.4593450234828969,
+          "replace_group_in_16_background": -0.8272149630568245,
+          "replace_group_in_11_background": 1.009917687222531
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.1261824071945298,
+          "replace_group_in_16_background": -0.3275511409297134,
+          "replace_group_in_11_background": 0.17745567393263406
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": -0.034785867151874775,
+          "replace_group_in_16_background": -0.45632434629828134,
+          "replace_group_in_11_background": 1.7016084694451736
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": -0.3610449493479047,
+          "replace_group_in_16_background": -0.43917847580318764,
+          "replace_group_in_11_background": 1.7018007213694297
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": -0.33589261138651194,
+          "replace_group_in_16_background": -0.4176753909207147,
+          "replace_group_in_11_background": 0.9257581136912587
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11471536400274614,
+          "replace_group_in_16_background": -0.4573586888004546,
+          "replace_group_in_11_background": 0.0012081395781768315
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": -0.2674082621805472,
+        "replace_group_in_16_background": -0.6981458973405869,
+        "replace_group_in_11_background": 0.983270083846362
+      },
+      "marginal_range": [
+        -0.9234024156943302,
+        0.11159474727923446
+      ]
+    },
+    {
+      "mode": "released",
+      "group": "value",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": 0.07221870771944378,
+          "replace_group_in_16_background": -1.7018260125310698,
+          "replace_group_in_11_background": -1.66276815544926e-05
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": -0.45701477593022655,
+          "replace_group_in_16_background": -0.6902581197244934,
+          "replace_group_in_11_background": 1.7025197079673298
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.23354489847252174,
+          "replace_group_in_16_background": -1.345114298588173,
+          "replace_group_in_11_background": 0.00024415738527860617
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": -1.0196813056368916,
+          "replace_group_in_16_background": -2.0213279477673383,
+          "replace_group_in_11_background": 1.7016461307013577
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.04392794428823626,
+          "replace_group_in_16_background": -1.0057300782522582,
+          "replace_group_in_11_background": 0.0005684136377760407
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.5455492778379597,
+          "replace_group_in_16_background": -1.3429014952112497,
+          "replace_group_in_11_background": 0.0008390609379575561
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": -0.19302579701197284,
+          "replace_group_in_16_background": -0.45595152084151225,
+          "replace_group_in_11_background": 2.018461154622139
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": 0.14121218633292965,
+          "replace_group_in_16_background": -0.4395443112518864,
+          "replace_group_in_11_background": 0.6969206145590622
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": 0.12653643398494532,
+          "replace_group_in_16_background": -0.4180002680408176,
+          "replace_group_in_11_background": 0.000575145828241313
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11501937294969772,
+          "replace_group_in_16_background": -0.4587991963578106,
+          "replace_group_in_11_background": 0.0003756499147240187
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": -0.22677960440901876,
+        "replace_group_in_16_background": -0.9879453248566609,
+        "replace_group_in_11_background": 0.6122133407872312
+      },
+      "marginal_range": [
+        -1.0196813056368916,
+        0.14121218633292965
+      ]
+    },
+    {
+      "mode": "complete",
+      "group": "query",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": 0.07203899851866125,
+          "replace_group_in_16_background": -1.702030398644803,
+          "replace_group_in_11_background": -0.0002250403084679309
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": 0.691204711005963,
+          "replace_group_in_16_background": -0.6377784602174704,
+          "replace_group_in_11_background": -0.000154217907975456
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.23377740441355854,
+          "replace_group_in_16_background": -1.3457016164373437,
+          "replace_group_in_11_background": 0.0006346576811858652
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": -0.16906030837862723,
+          "replace_group_in_16_background": -2.0210528251305786,
+          "replace_group_in_11_background": 0.0008260240270332856
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.05129076501620922,
+          "replace_group_in_16_background": -1.0330059629103001,
+          "replace_group_in_11_background": 2.7841168709776638e-05
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.545126645401593,
+          "replace_group_in_16_background": -1.342581233478885,
+          "replace_group_in_11_background": -5.9398783681293256e-05
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": 0.8217801176625389,
+          "replace_group_in_16_background": -0.43256519170774316,
+          "replace_group_in_11_background": 0.00038163223176855934
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": 0.5990760711019075,
+          "replace_group_in_16_background": -0.3110297209068173,
+          "replace_group_in_11_background": -0.0004173806942576034
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": -0.016003225971045053,
+          "replace_group_in_16_background": -0.4121089326852763,
+          "replace_group_in_11_background": 0.00011515297228470445
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11522102426820448,
+          "replace_group_in_16_background": -0.4590173989894207,
+          "replace_group_in_11_background": 0.0005982569859814689
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": 0.10536205248398332,
+        "replace_group_in_16_background": -0.9696871741108638,
+        "replace_group_in_11_background": 0.00017275273725813765
+      },
+      "marginal_range": [
+        -0.545126645401593,
+        0.8217801176625389
+      ]
+    },
+    {
+      "mode": "complete",
+      "group": "key",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": -0.9228369814315528,
+          "replace_group_in_16_background": -1.7012320085478043,
+          "replace_group_in_11_background": 1.990325309688959
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": -0.15928880955757585,
+          "replace_group_in_16_background": -0.6366907268565035,
+          "replace_group_in_11_background": 1.7019205565800692
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.43886012292756327,
+          "replace_group_in_16_background": -1.344343391105984,
+          "replace_group_in_11_background": 0.4121583200405549
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": 0.009275565671762765,
+          "replace_group_in_16_background": -0.31972092931920826,
+          "replace_group_in_11_background": 1.3454861717376236
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.46545903006997175,
+          "replace_group_in_16_background": -0.8518133700797053,
+          "replace_group_in_11_background": 1.0095569641068296
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.12617913860330268,
+          "replace_group_in_16_background": -0.32750580527565676,
+          "replace_group_in_11_background": 0.17712101582296644
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": -0.028925131651869242,
+          "replace_group_in_16_background": -0.4322051680258786,
+          "replace_group_in_11_background": 1.7021521545424494
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": -0.251717005563974,
+          "replace_group_in_16_background": -0.31079578331572877,
+          "replace_group_in_11_background": 1.701402710228594
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": -0.1902913470513533,
+          "replace_group_in_16_background": -0.41189414688569465,
+          "replace_group_in_11_background": 0.3489061809324829
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11457837471750805,
+          "replace_group_in_16_background": -0.45723489445464854,
+          "replace_group_in_11_background": 0.001095462419360763
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": -0.26888603759029084,
+        "replace_group_in_16_background": -0.6793436223866813,
+        "replace_group_in_11_background": 1.039012484609989
+      },
+      "marginal_range": [
+        -0.9228369814315528,
+        0.009275565671762765
+      ]
+    },
+    {
+      "mode": "complete",
+      "group": "value",
+      "per_stream": [
+        {
+          "stream_seed": 10,
+          "marginal_11_minus_16": 0.07202920557888731,
+          "replace_group_in_16_background": -1.702304989547525,
+          "replace_group_in_11_background": -0.00048004533164203167
+        },
+        {
+          "stream_seed": 11,
+          "marginal_11_minus_16": -0.15984847305640648,
+          "replace_group_in_16_background": -0.6375451997120046,
+          "replace_group_in_11_background": 1.7021854107222294
+        },
+        {
+          "stream_seed": 12,
+          "marginal_11_minus_16": -0.23327756543100503,
+          "replace_group_in_16_background": -1.3446430226992534,
+          "replace_group_in_11_background": 0.0006935734541691615
+        },
+        {
+          "stream_seed": 13,
+          "marginal_11_minus_16": -1.0197129066483201,
+          "replace_group_in_16_background": -2.0215463509472706,
+          "replace_group_in_11_background": 1.7016376947497271
+        },
+        {
+          "stream_seed": 14,
+          "marginal_11_minus_16": -0.05116342547019789,
+          "replace_group_in_16_background": -1.0327869531359863,
+          "replace_group_in_11_background": -7.828148999110339e-06
+        },
+        {
+          "stream_seed": 15,
+          "marginal_11_minus_16": -0.5456032719944646,
+          "replace_group_in_16_background": -1.3429915459974753,
+          "replace_group_in_11_background": 0.00048354188347178866
+        },
+        {
+          "stream_seed": 16,
+          "marginal_11_minus_16": -0.18715264425775255,
+          "replace_group_in_16_background": -0.4318664227365375,
+          "replace_group_in_11_background": 2.018945925043557
+        },
+        {
+          "stream_seed": 17,
+          "marginal_11_minus_16": 0.09621167773597834,
+          "replace_group_in_16_background": -0.311149743921829,
+          "replace_group_in_11_background": 1.0051913830225891
+        },
+        {
+          "stream_seed": 18,
+          "marginal_11_minus_16": -0.015923270097118792,
+          "replace_group_in_16_background": -0.41168823141505884,
+          "replace_group_in_11_background": 0.00037594249464966583
+        },
+        {
+          "stream_seed": 19,
+          "marginal_11_minus_16": -0.11491545646012209,
+          "replace_group_in_16_background": -0.4587397455188417,
+          "replace_group_in_11_background": 0.00026477484039567185
+        }
+      ],
+      "means": {
+        "marginal_11_minus_16": -0.21593561301005218,
+        "replace_group_in_16_background": -0.9695262205631783,
+        "replace_group_in_11_background": 0.6429290372730148
+      },
+      "marginal_range": [
+        -1.0197129066483201,
+        0.09621167773597834
+      ]
+    }
+  ],
+  "individual_metrics": [
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0007112829392126789,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0007103719199221814,
+      "validation_auc": 0.522506613968259,
+      "no_adaptation_accuracy": 0.12171519886363637
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0005938045920409037,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0005921569718339015,
+      "validation_auc": 0.5404172021948267,
+      "no_adaptation_accuracy": 0.12532552083333334
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0011576963341653798,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011537468890310265,
+      "validation_auc": 0.5264090192317895,
+      "no_adaptation_accuracy": 0.12423058712121213
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0011555881549914677,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011532127900863998,
+      "validation_auc": 0.5503600167859245,
+      "no_adaptation_accuracy": 0.12411221590909091
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0006279566706242887,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006260119971557287,
+      "validation_auc": 0.5234082048324773,
+      "no_adaptation_accuracy": 0.12423058712121213
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0007016574328934604,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0007002920319791883,
+      "validation_auc": 0.5457835464321988,
+      "no_adaptation_accuracy": 0.12286931818181818
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0012442782119085844,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012430910792318173,
+      "validation_auc": 0.5712474624784053,
+      "no_adaptation_accuracy": 0.12582859848484848
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0010082259047494242,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010067857874673791,
+      "validation_auc": 0.5624849447775095,
+      "no_adaptation_accuracy": 0.12381628787878787
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0006292866468852894,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006285620056587504,
+      "validation_auc": 0.5230110952503425,
+      "no_adaptation_accuracy": 0.12254379734848485
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0006104797163667778,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006103172436269233,
+      "validation_auc": 0.5223078408843244,
+      "no_adaptation_accuracy": 0.12482244318181818
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0011391390086800764,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011391979714971967,
+      "validation_auc": 0.5409563186015374,
+      "no_adaptation_accuracy": 0.12354995265151515
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0008410429317419502,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0008406978104176233,
+      "validation_auc": 0.5626239651482167,
+      "no_adaptation_accuracy": 0.1259173768939394
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.001071070486707895,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010720150639826898,
+      "validation_auc": 0.52786546815857,
+      "no_adaptation_accuracy": 0.12568063446969696
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0010911872307064407,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010918776206381153,
+      "validation_auc": 0.5830569692702321,
+      "no_adaptation_accuracy": 0.12470407196969698
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0009818306707805305,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000980612516286783,
+      "validation_auc": 0.5244535867820372,
+      "no_adaptation_accuracy": 0.12340198863636363
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0010492759403970206,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001049325608619256,
+      "validation_auc": 0.6086887725158854,
+      "no_adaptation_accuracy": 0.12710108901515152
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0006582449176207637,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000657180191410589,
+      "validation_auc": 0.5692138218558244,
+      "no_adaptation_accuracy": 0.12491122159090909
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0013819328001277013,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013820116000715643,
+      "validation_auc": 0.5681983060381323,
+      "no_adaptation_accuracy": 0.12109375
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0009126158900361395,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000911109351363848,
+      "validation_auc": 0.5264973535288334,
+      "no_adaptation_accuracy": 0.12452651515151515
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q11-k11-v11",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.0007231736107672932,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0007207086200651247,
+      "validation_auc": 0.5228551629879014,
+      "no_adaptation_accuracy": 0.12520714962121213
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0006946552576581863,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006924230729055125,
+      "validation_auc": 1.2143375782179768,
+      "no_adaptation_accuracy": 0.1240234375
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.7031135125593706,
+      "accuracy": 0.24857954545454544,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.703164342790842,
+      "validation_auc": 1.9965611588589238,
+      "no_adaptation_accuracy": 0.12313565340909091
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001401853719443986,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.00139423847940634,
+      "validation_auc": 1.0507177471530325,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.7028017188563491,
+      "accuracy": 0.2535215435606061,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7027601227164268,
+      "validation_auc": 1.9462092923302086,
+      "no_adaptation_accuracy": 0.12529592803030304
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0011963703084003293,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011975380111834966,
+      "validation_auc": 0.7662619727925144,
+      "no_adaptation_accuracy": 0.12730823863636365
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0015407183708510165,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0015372520829259884,
+      "validation_auc": 0.8691365158884705,
+      "no_adaptation_accuracy": 0.12452651515151515
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 2.0197054328340474,
+      "accuracy": 0.1387014678030303,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 2.0203693583607674,
+      "validation_auc": 2.050674821117983,
+      "no_adaptation_accuracy": 0.12455610795454546
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.6979288404638117,
+      "accuracy": 0.6239642518939394,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.6978020183742046,
+      "validation_auc": 1.6199067788873371,
+      "no_adaptation_accuracy": 0.12283972537878787
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012044324751266024,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012107859511161223,
+      "validation_auc": 0.7548533916149165,
+      "no_adaptation_accuracy": 0.12310606060606061
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009861296310907965,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009909662621794268,
+      "validation_auc": 0.7325881905483027,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0006590936770380447,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006573246064363047,
+      "validation_auc": 1.211924113364394,
+      "no_adaptation_accuracy": 0.1240234375
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.7030264536539714,
+      "accuracy": 0.2481356534090909,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7030023001134396,
+      "validation_auc": 1.9893321810983655,
+      "no_adaptation_accuracy": 0.12251420454545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0017646439408770566,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0017576815844222438,
+      "validation_auc": 1.0453048684299477,
+      "no_adaptation_accuracy": 0.1259173768939394
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.7027288819804336,
+      "accuracy": 0.2522786458333333,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.702727884054184,
+      "validation_auc": 1.9321627390255316,
+      "no_adaptation_accuracy": 0.1268643465909091
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0009740025217814201,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009747382737259613,
+      "validation_auc": 0.7624950218329569,
+      "no_adaptation_accuracy": 0.12428977272727272
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0015328178238688092,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0015291991257981863,
+      "validation_auc": 0.8691292839984285,
+      "no_adaptation_accuracy": 0.12452651515151515
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 2.0196041699611778,
+      "accuracy": 0.13834635416666666,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 2.020285040140152,
+      "validation_auc": 2.050663309000768,
+      "no_adaptation_accuracy": 0.1239938446969697
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.0065733158227168,
+      "accuracy": 0.5011245265151515,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0066497512161732,
+      "validation_auc": 1.6280416040642434,
+      "no_adaptation_accuracy": 0.12718986742424243
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0012885583846858053,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001296490980166709,
+      "validation_auc": 0.8204885115541013,
+      "no_adaptation_accuracy": 0.12310606060606061
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q11-k11-v16",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.000987948451162965,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009928272666002158,
+      "validation_auc": 0.732571834070923,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.99218753973643,
+      "accuracy": 0.1551846590909091,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.9863778464496136,
+      "validation_auc": 2.0402310407830897,
+      "no_adaptation_accuracy": 0.12378669507575757
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.5658229914578524,
+      "accuracy": 0.6875887784090909,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.5636539254337549,
+      "validation_auc": 1.7184907956568147,
+      "no_adaptation_accuracy": 0.12615411931818182
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.413165653293783,
+      "accuracy": 0.7518347537878788,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.4132104627788067,
+      "validation_auc": 1.6420272432441803,
+      "no_adaptation_accuracy": 0.12147845643939394
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.347394220756762,
+      "accuracy": 0.3723958333333333,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.3476555161178112,
+      "validation_auc": 2.016037392994398,
+      "no_adaptation_accuracy": 0.12366832386363637
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.0105456438931553,
+      "accuracy": 0.49760298295454547,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0105053782463074,
+      "validation_auc": 1.8655036047275158,
+      "no_adaptation_accuracy": 0.12094578598484848
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.17815733136552753,
+      "accuracy": 0.8728101325757576,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.17818701919168234,
+      "validation_auc": 1.496523840032605,
+      "no_adaptation_accuracy": 0.12251420454545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.7028527476570823,
+      "accuracy": 0.2499112215909091,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7028259225189686,
+      "validation_auc": 1.8600023790559606,
+      "no_adaptation_accuracy": 0.12426017992424243
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.7028089472741792,
+      "accuracy": 0.2470999053030303,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.702801052480936,
+      "validation_auc": 1.9142219035175687,
+      "no_adaptation_accuracy": 0.12133049242424243
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.926387400338144,
+      "accuracy": 0.5537109375,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.928436977788806,
+      "validation_auc": 1.9536538970079864,
+      "no_adaptation_accuracy": 0.12357954545454546
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0018186192945436094,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0018269153661094606,
+      "validation_auc": 1.2238659027854846,
+      "no_adaptation_accuracy": 0.1250591856060606
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.9914644486976392,
+      "accuracy": 0.14870383522727273,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.9858635067939758,
+      "validation_auc": 2.0401790698489584,
+      "no_adaptation_accuracy": 0.12378669507575757
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.7027615995118113,
+      "accuracy": 0.2515684185606061,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7027753368020058,
+      "validation_auc": 1.9393436764685659,
+      "no_adaptation_accuracy": 0.1220703125
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.4132293905272628,
+      "accuracy": 0.7503551136363636,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.4132448509335518,
+      "validation_auc": 1.6413447691659397,
+      "no_adaptation_accuracy": 0.1230172821969697
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.34657735896833,
+      "accuracy": 0.37653882575757575,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.346990704536438,
+      "validation_auc": 2.0158596944393516,
+      "no_adaptation_accuracy": 0.12467447916666667
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.01053879477761,
+      "accuracy": 0.49775094696969696,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0104978196322918,
+      "validation_auc": 1.8659543414010926,
+      "no_adaptation_accuracy": 0.12094578598484848
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.17817029176336346,
+      "accuracy": 0.8731948390151515,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.17821217002347112,
+      "validation_auc": 1.4964816013773987,
+      "no_adaptation_accuracy": 0.12251420454545454
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.70281039946007,
+      "accuracy": 0.2490826231060606,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.702775489538908,
+      "validation_auc": 1.859633555346618,
+      "no_adaptation_accuracy": 0.12396425189393939
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.7027846430287217,
+      "accuracy": 0.24597537878787878,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7027754560112953,
+      "validation_auc": 1.9132710057924904,
+      "no_adaptation_accuracy": 0.12189275568181818
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.34981879682251904,
+      "accuracy": 0.8648792613636364,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.3540419274941087,
+      "validation_auc": 1.8760241238129807,
+      "no_adaptation_accuracy": 0.12822561553030304
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q11-k16-v11",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0018186360301280563,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001826942872867221,
+      "validation_auc": 1.2239006803012462,
+      "no_adaptation_accuracy": 0.1250591856060606
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001276782992521696,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001277328672586009,
+      "validation_auc": 0.6529759646739592,
+      "no_adaptation_accuracy": 0.12609493371212122
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0008311235966781775,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0008314703736687079,
+      "validation_auc": 0.8657965237799606,
+      "no_adaptation_accuracy": 0.12526633522727273
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010837645897867553,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001082136426703073,
+      "validation_auc": 0.5823045733772952,
+      "no_adaptation_accuracy": 0.12568063446969696
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0014145708304237235,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0014161507933749817,
+      "validation_auc": 1.0245242883640628,
+      "no_adaptation_accuracy": 0.1240530303030303
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0008259803113160712,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0008256185465143062,
+      "validation_auc": 0.7551827591780546,
+      "no_adaptation_accuracy": 0.12636126893939395
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010564575345735207,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.00105587406505947,
+      "validation_auc": 0.9153834559231796,
+      "no_adaptation_accuracy": 0.12295809659090909
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0006616517926114752,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000662104755974724,
+      "validation_auc": 0.8417876386476187,
+      "no_adaptation_accuracy": 0.12571022727272727
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0006626443355344236,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006606899587495718,
+      "validation_auc": 0.5522001985158209,
+      "no_adaptation_accuracy": 0.12585819128787878
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009509994186263418,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009510041054454632,
+      "validation_auc": 0.5560442476793733,
+      "no_adaptation_accuracy": 0.12609493371212122
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0013158549942697089,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013142852840246633,
+      "validation_auc": 0.6177449705565946,
+      "no_adaptation_accuracy": 0.12352035984848485
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0008191953847100111,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0008206425391108496,
+      "validation_auc": 0.6835783139402289,
+      "no_adaptation_accuracy": 0.12476325757575757
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0010119864830013478,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001011820790154161,
+      "validation_auc": 0.863692500379873,
+      "no_adaptation_accuracy": 0.12479285037878787
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0006752794671973044,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006750763877789723,
+      "validation_auc": 0.5898782072235583,
+      "no_adaptation_accuracy": 0.12417140151515152
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0014151276554912329,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0014199265860952437,
+      "validation_auc": 1.0239877569168894,
+      "no_adaptation_accuracy": 0.12523674242424243
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0011152253401550379,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011135620188724715,
+      "validation_auc": 0.7539287098448959,
+      "no_adaptation_accuracy": 0.12257339015151515
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0015113704068812006,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0015139863862714265,
+      "validation_auc": 1.035003608804094,
+      "no_adaptation_accuracy": 0.12278053977272728
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.000644241089255295,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000644532732621883,
+      "validation_auc": 0.8252261276348677,
+      "no_adaptation_accuracy": 0.12494081439393939
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0011637098275858796,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001164002787845675,
+      "validation_auc": 0.6413850880988666,
+      "no_adaptation_accuracy": 0.12517755681818182
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0011303431820124388,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011302124366920907,
+      "validation_auc": 0.5389522600284141,
+      "no_adaptation_accuracy": 0.1250295928030303
+    },
+    {
+      "configuration": {
+        "query": 11,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q11-k16-v16",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0010074337866778176,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010073478042613715,
+      "validation_auc": 0.6246725231608183,
+      "no_adaptation_accuracy": 0.12417140151515152
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010233052519404075,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010242603202641476,
+      "validation_auc": 0.8437216762039086,
+      "no_adaptation_accuracy": 0.12553267045454544
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009414603312810262,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009422497350897174,
+      "validation_auc": 0.589384176086038,
+      "no_adaptation_accuracy": 0.12488162878787878
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009113825914083105,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009160461868304992,
+      "validation_auc": 0.8129550382252391,
+      "no_adaptation_accuracy": 0.12286931818181818
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010522270546943853,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010517971059016418,
+      "validation_auc": 0.658100632361311,
+      "no_adaptation_accuracy": 0.12576941287878787
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0006567320299588821,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006560856054420583,
+      "validation_auc": 0.5376582447995053,
+      "no_adaptation_accuracy": 0.12458570075757576
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010765114319369648,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001078238226909889,
+      "validation_auc": 0.8199017548071127,
+      "no_adaptation_accuracy": 0.12559185606060605
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0010423383421518586,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010423661369713955,
+      "validation_auc": 0.7416790981554676,
+      "no_adaptation_accuracy": 0.12269176136363637
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0007120605282993479,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0007125209031073609,
+      "validation_auc": 0.7445975195647203,
+      "no_adaptation_accuracy": 0.12449692234848485
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0007443983746325654,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0007451706660503987,
+      "validation_auc": 0.7214143650197727,
+      "no_adaptation_accuracy": 0.12319483901515152
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001322848510674455,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013259318911877926,
+      "validation_auc": 1.17570064205603,
+      "no_adaptation_accuracy": 0.12653882575757575
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0009140987002121454,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009151829563052161,
+      "validation_auc": 0.8444615038753002,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0006868250237664942,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0006874466798763024,
+      "validation_auc": 0.6162352965771737,
+      "no_adaptation_accuracy": 0.12582859848484848
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0017057281678937602,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0017020760533341672,
+      "validation_auc": 0.7749596113341958,
+      "no_adaptation_accuracy": 0.12387547348484848
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0019172112577397263,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0019162289427185897,
+      "validation_auc": 0.7085091739590187,
+      "no_adaptation_accuracy": 0.12266216856060606
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001009671839490307,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001006176771625178,
+      "validation_auc": 0.5472836123579066,
+      "no_adaptation_accuracy": 0.12343158143939394
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0009898771567157273,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.000991513443295844,
+      "validation_auc": 0.8158422934453037,
+      "no_adaptation_accuracy": 0.12642045454545456
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001039877149389323,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010399278398836032,
+      "validation_auc": 0.7418434782290791,
+      "no_adaptation_accuracy": 0.12269176136363637
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0009645521058700979,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009610210690880194,
+      "validation_auc": 0.7679144017663547,
+      "no_adaptation_accuracy": 0.12482244318181818
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001027768862320844,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010289691235811915,
+      "validation_auc": 0.7617975157296611,
+      "no_adaptation_accuracy": 0.12372750946969698
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 11
+      },
+      "label": "q16-k11-v11",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0013214305967487621,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.00132448141448549,
+      "validation_auc": 1.1754968676693909,
+      "no_adaptation_accuracy": 0.12653882575757575
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001249846268558141,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012517880495579448,
+      "validation_auc": 1.153376871804632,
+      "no_adaptation_accuracy": 0.12517755681818182
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012146042215383866,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012193379843665753,
+      "validation_auc": 1.1212588010129243,
+      "no_adaptation_accuracy": 0.1270123106060606
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001814409212039953,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0018204554653493688,
+      "validation_auc": 1.5392417386995814,
+      "no_adaptation_accuracy": 0.12553267045454544
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.7027830210599033,
+      "accuracy": 0.24917140151515152,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7027762979269028,
+      "validation_auc": 1.8256038393023017,
+      "no_adaptation_accuracy": 0.125
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.17978968087470892,
+      "accuracy": 0.8750295928030303,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.17980224126949906,
+      "validation_auc": 1.409029558377157,
+      "no_adaptation_accuracy": 0.1259173768939394
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 1.0166339404655225,
+      "accuracy": 0.49860913825757575,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0168713964521885,
+      "validation_auc": 1.959911585780784,
+      "no_adaptation_accuracy": 0.12417140151515152
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009239467908628285,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009238149850716582,
+      "validation_auc": 0.7394306226790609,
+      "no_adaptation_accuracy": 0.12316524621212122
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0015446923242769008,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0015432617256010417,
+      "validation_auc": 0.5938791488279914,
+      "no_adaptation_accuracy": 0.12434895833333333
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0014596494853101444,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0014595225948141888,
+      "validation_auc": 0.868526891928692,
+      "no_adaptation_accuracy": 0.12390506628787878
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.002728258337204655,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.002728079925873317,
+      "validation_auc": 1.2674197067063202,
+      "no_adaptation_accuracy": 0.12334280303030302
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0016175854817089257,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0016175754899450112,
+      "validation_auc": 1.0902165246401445,
+      "no_adaptation_accuracy": 0.12532552083333334
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0020997198439682975,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.002094610877975356,
+      "validation_auc": 1.1116862044699958,
+      "no_adaptation_accuracy": 0.1259765625
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.002033504798556819,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.002046133879048284,
+      "validation_auc": 1.5642875076704945,
+      "no_adaptation_accuracy": 0.12677556818181818
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.7027470234668616,
+      "accuracy": 0.2490826231060606,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.702746745198965,
+      "validation_auc": 1.799465615022461,
+      "no_adaptation_accuracy": 0.12331321022727272
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.18230781817074979,
+      "accuracy": 0.874704071969697,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.18223015731200576,
+      "validation_auc": 1.4091990557740224,
+      "no_adaptation_accuracy": 0.1269827178030303
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 1.0165867986101094,
+      "accuracy": 0.4989050662878788,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0163372568786144,
+      "validation_auc": 1.9602796885998102,
+      "no_adaptation_accuracy": 0.12479285037878787
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001004264771119889,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010039083790616132,
+      "validation_auc": 0.7015557952025708,
+      "no_adaptation_accuracy": 0.12349076704545454
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0013976474186744201,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013971853768453002,
+      "validation_auc": 0.6674815163838224,
+      "no_adaptation_accuracy": 0.12523674242424243
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001345128981594109,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013454667205223814,
+      "validation_auc": 0.8662480545776915,
+      "no_adaptation_accuracy": 0.12464488636363637
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 11,
+        "value": 16
+      },
+      "label": "q16-k11-v16",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0027899383214499912,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0027887385949725285,
+      "validation_auc": 1.267415021207677,
+      "no_adaptation_accuracy": 0.12334280303030302
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0009992086173345645,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010010529222199693,
+      "validation_auc": 0.7408939008979263,
+      "no_adaptation_accuracy": 0.12384588068181818
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012860789041345317,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012886805561720394,
+      "validation_auc": 0.5905322391775558,
+      "no_adaptation_accuracy": 0.12721946022727273
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012761040901144345,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012759296005242504,
+      "validation_auc": 0.531139773941199,
+      "no_adaptation_accuracy": 0.12562144886363635
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0011300781360742721,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001130647480749758,
+      "validation_auc": 0.5700456299301718,
+      "no_adaptation_accuracy": 0.1250887784090909
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012745656792751768,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012754346898873337,
+      "validation_auc": 0.5304515231943692,
+      "no_adaptation_accuracy": 0.12532552083333334
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012835861839862032,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012827198661398143,
+      "validation_auc": 0.804821113949819,
+      "no_adaptation_accuracy": 0.12529592803030304
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001296772247631893,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012968381452083122,
+      "validation_auc": 0.6596454421476707,
+      "no_adaptation_accuracy": 0.1250887784090909
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.001178856875578111,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011798190134868491,
+      "validation_auc": 0.5536102399288965,
+      "no_adaptation_accuracy": 0.12289891098484848
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0011347723652072477,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011382494631106965,
+      "validation_auc": 0.6200761236098322,
+      "no_adaptation_accuracy": 0.12639086174242425
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "cross_entropy": 0.0012877507798486586,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012846760837419424,
+      "validation_auc": 0.8667799240259005,
+      "no_adaptation_accuracy": 0.1279000946969697
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0005446044819881067,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0005455462705867831,
+      "validation_auc": 0.7131180809863232,
+      "no_adaptation_accuracy": 0.12609493371212122
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0012452469884671948,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012458571036404464,
+      "validation_auc": 0.6038655030963662,
+      "no_adaptation_accuracy": 0.12633167613636365
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0017338732052876642,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.001734441702865297,
+      "validation_auc": 0.5325503740374288,
+      "no_adaptation_accuracy": 0.12461529356060606
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0009216018387991371,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0009218106060870923,
+      "validation_auc": 0.6015812764449819,
+      "no_adaptation_accuracy": 0.12349076704545454
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0013342351144687696,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013320554935489781,
+      "validation_auc": 0.5309747157015968,
+      "no_adaptation_accuracy": 0.12645004734848486
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.001101057888290873,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0011037462681997567,
+      "validation_auc": 0.9374123423938526,
+      "no_adaptation_accuracy": 0.12346117424242424
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0013430100604609559,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0013433916828944348,
+      "validation_auc": 0.6138820877689696,
+      "no_adaptation_accuracy": 0.1258877840909091
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0010436868125742133,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0010440754558658227,
+      "validation_auc": 0.5580330921091351,
+      "no_adaptation_accuracy": 0.125
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0015510444522299099,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0015520928900514264,
+      "validation_auc": 0.6348538100078706,
+      "no_adaptation_accuracy": 0.12639086174242425
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 11
+      },
+      "label": "q16-k16-v11",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "cross_entropy": 0.0012850872572567878,
+      "accuracy": 1.0,
+      "queries": 33792,
+      "final_validation_low_loss": true,
+      "final_validation_ce": 0.0012818885297747329,
+      "validation_auc": 0.8667760462523623,
+      "no_adaptation_accuracy": 0.1278409090909091
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.7028252211484043,
+      "accuracy": 0.24940814393939395,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.7027983479201794,
+      "validation_auc": 1.8783029583663693,
+      "no_adaptation_accuracy": 0.12426017992424243
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.6915441986286279,
+      "accuracy": 0.6712831439393939,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.6946751605719328,
+      "validation_auc": 1.9500083471702814,
+      "no_adaptation_accuracy": 0.12656841856060605
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.3463904026782874,
+      "accuracy": 0.3753255208333333,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.346546147018671,
+      "validation_auc": 1.887656456801748,
+      "no_adaptation_accuracy": 0.12455610795454546
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 2.0224580259034126,
+      "accuracy": 0.14592211174242425,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 2.0231951996684074,
+      "validation_auc": 2.0479001624693156,
+      "no_adaptation_accuracy": 0.1250295928030303
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.0070046439315334,
+      "accuracy": 0.5061257102272727,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.0068936720490456,
+      "validation_auc": 1.7591952130086534,
+      "no_adaptation_accuracy": 0.1259173768939394
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.3441850813952358,
+      "accuracy": 0.3759765625,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.3441054485738277,
+      "validation_auc": 1.78693043793208,
+      "no_adaptation_accuracy": 0.12627249053030304
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.45724829308914416,
+      "accuracy": 0.7503847064393939,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.45739987399429083,
+      "validation_auc": 1.543817785790871,
+      "no_adaptation_accuracy": 0.12313565340909091
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.44072316812746454,
+      "accuracy": 0.7446437026515151,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.4395728074014187,
+      "validation_auc": 1.6008368254155667,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.41913504040602484,
+      "accuracy": 0.7478693181818182,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.4190857643261552,
+      "validation_auc": 1.8767851706071816,
+      "no_adaptation_accuracy": 0.1239938446969697
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.46008694713765924,
+      "accuracy": 0.7339311079545454,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.461007964797318,
+      "validation_auc": 1.399656606496052,
+      "no_adaptation_accuracy": 0.12334280303030302
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.7028495940295132,
+      "accuracy": 0.2499704071969697,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.702827874571085,
+      "validation_auc": 1.8690049988412,
+      "no_adaptation_accuracy": 0.12440814393939394
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.6387904467004718,
+      "accuracy": 0.6722597064393939,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.6408637631684542,
+      "validation_auc": 1.939573149543523,
+      "no_adaptation_accuracy": 0.12310606060606061
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.346376895904541,
+      "accuracy": 0.37437855113636365,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.3465378023684025,
+      "validation_auc": 1.887734206508416,
+      "no_adaptation_accuracy": 0.12455610795454546
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 2.02246795278607,
+      "accuracy": 0.14592211174242425,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 2.0231999456882477,
+      "validation_auc": 2.04790290896602,
+      "no_adaptation_accuracy": 0.1250295928030303
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.034121188250455,
+      "accuracy": 0.49849076704545453,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.034349512308836,
+      "validation_auc": 1.7618861949329385,
+      "no_adaptation_accuracy": 0.12458570075757576
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 1.3440926038857661,
+      "accuracy": 0.3779296875,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 1.344212457537651,
+      "validation_auc": 1.7881048581312615,
+      "no_adaptation_accuracy": 0.12446732954545454
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.4332094327969985,
+      "accuracy": 0.7476917613636364,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.43287853617221117,
+      "validation_auc": 1.5422190062496468,
+      "no_adaptation_accuracy": 0.12159682765151515
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.3121934307344032,
+      "accuracy": 0.8171460700757576,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.30879196990281343,
+      "validation_auc": 1.558773139280225,
+      "no_adaptation_accuracy": 0.12352035984848485
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.41323927586728876,
+      "accuracy": 0.748727509469697,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.4131197836250067,
+      "validation_auc": 1.697174022742275,
+      "no_adaptation_accuracy": 0.12381628787878787
+    },
+    {
+      "configuration": {
+        "query": 16,
+        "key": 16,
+        "value": 16
+      },
+      "label": "q16-k16-v16",
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "reused_embedding_baseline",
+      "cross_entropy": 0.4600248327760985,
+      "accuracy": 0.734079071969697,
+      "queries": 33792,
+      "final_validation_low_loss": false,
+      "final_validation_ce": 0.46102029364556074,
+      "validation_auc": 1.399478456683345,
+      "no_adaptation_accuracy": 0.1240234375
+    }
+  ],
+  "script_sha256": "d391bc1f0f181163b52f872126ba2977fba15810381ee1830a41eacbe31437e2"
+}

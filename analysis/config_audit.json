@@ -1,0 +1,130 @@
+{
+  "kind": "static configuration and shape analysis, not executed-model measurement",
+  "revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "rows": [
+    {
+      "label": "shallow_silu",
+      "path": "flame/configs/modular_ttt/ttt_linear_graph_mse_no_norm_sd_silu_single_sinlr_official_init/ttt_linear_graph_mse_no_norm_sd_silu_single_sinlr_90m_official_init.json",
+      "sha256": "ff9fc557f2d515199f5984272bbd46a5f78b46003b027ed32800eb10eec63fdf",
+      "chunk_size": 256,
+      "mean_loss": false,
+      "inner_rate_at_zero_predictor_output": 0.0010000000000000002,
+      "inner_rate_explicit_override": false,
+      "fast_matrix_shapes_per_block": [
+        [
+          6,
+          128,
+          128
+        ]
+      ],
+      "fast_matrix_entries_all_blocks": 1179648,
+      "scalar_lr_and_decay_predictor_weights_all_blocks": 110592,
+      "topology": [
+        "linear",
+        "act:silu"
+      ],
+      "rmsnorm_epsilon": 1e-05
+    },
+    {
+      "label": "deep_silu_no_mean",
+      "path": "flame/configs/modular_ttt/ttt_mlp_graph_mse_sd_linear_silu_linear_silu_sinlr_official_init/ttt_mlp_graph_mse_sd_linear_silu_linear_silu_sinlr_official_init_90m.json",
+      "sha256": "e0c2cabb0297a63b01f348480dcf9677e35f9fd5315b95e815d119785a0db29b",
+      "chunk_size": 256,
+      "mean_loss": false,
+      "inner_rate_at_zero_predictor_output": 0.0010000000000000002,
+      "inner_rate_explicit_override": false,
+      "fast_matrix_shapes_per_block": [
+        [
+          6,
+          128,
+          128
+        ],
+        [
+          6,
+          128,
+          128
+        ]
+      ],
+      "fast_matrix_entries_all_blocks": 2359296,
+      "scalar_lr_and_decay_predictor_weights_all_blocks": 221184,
+      "topology": [
+        "linear",
+        "act:silu",
+        "linear",
+        "act:silu"
+      ],
+      "rmsnorm_epsilon": 1e-05
+    },
+    {
+      "label": "deep_silu_mean",
+      "path": "flame/configs/modular_ttt/ttt_mlp_graph_mse_mean_sd_linear_silu_linear_silu_sinlr_official_init/ttt_mlp_graph_mse_mean_sd_linear_silu_linear_silu_sinlr_official_init_90m.json",
+      "sha256": "fff9e886e961f0594aa45f92aa465ce39c7f78a72b66179c131cf3e08d7f5b80",
+      "chunk_size": 256,
+      "mean_loss": true,
+      "inner_rate_at_zero_predictor_output": 0.0010000000000000002,
+      "inner_rate_explicit_override": false,
+      "fast_matrix_shapes_per_block": [
+        [
+          6,
+          128,
+          128
+        ],
+        [
+          6,
+          128,
+          128
+        ]
+      ],
+      "fast_matrix_entries_all_blocks": 2359296,
+      "scalar_lr_and_decay_predictor_weights_all_blocks": 221184,
+      "topology": [
+        "linear",
+        "act:silu",
+        "linear",
+        "act:silu"
+      ],
+      "rmsnorm_epsilon": 1e-05
+    },
+    {
+      "label": "deep_norm_eps05",
+      "path": "flame/configs/modular_ttt/ttt_mlp_graph_mse_mean_sd_silu_norm_sinlr1e4_official_init_eps05/ttt_mlp_graph_mse_mean_sd_silu_norm_sinlr1e4_official_init_90m_eps05.json",
+      "sha256": "d5a5b8549c7bb3471b3c08cf9341292186ab121e17b9127c05b15d80978860b7",
+      "chunk_size": 256,
+      "mean_loss": true,
+      "inner_rate_at_zero_predictor_output": 0.00010000000000000009,
+      "inner_rate_explicit_override": true,
+      "fast_matrix_shapes_per_block": [
+        [
+          6,
+          128,
+          128
+        ],
+        [
+          6,
+          128,
+          128
+        ]
+      ],
+      "fast_matrix_entries_all_blocks": 2359296,
+      "scalar_lr_and_decay_predictor_weights_all_blocks": 221184,
+      "topology": [
+        "linear",
+        "act:silu",
+        "linear",
+        "norm"
+      ],
+      "rmsnorm_epsilon": 0.5
+    }
+  ],
+  "gradient_reference_refreshes_in_2048_tokens": {
+    "16": 128,
+    "128": 16,
+    "256": 8,
+    "512": 4
+  },
+  "limits": [
+    "No checkpoint-to-table mapping established.",
+    "Counts omit unrelated parameters and cache buffers.",
+    "Rate is at zero predictor output, not a measured token-average rate."
+  ]
+}

@@ -1,0 +1,1837 @@
+{
+  "protocol_code_donor_and_source_hashes_verified": true,
+  "unique_mappings": 40320,
+  "split_overlap": 0,
+  "initial_state_hashes_by_init": {
+    "10": "7ddb67873416a48022d26bc06b02a1e2c29bae560d833727c584f647991360a4",
+    "11": "83bc0bcf5b50f3bd17159f5b2c76d454deead88f74b8fb7ac03309a33e931ad9",
+    "12": "f977544cc65b74ca3810f8cb457cf0bd522c64796032105b9a5109a58cfe013a",
+    "13": "205ec2b0c20d23a43b6b99f06b5710fc0b3b745858025ff3f43c229524ce01af",
+    "14": "be9810ec3834f800ee269015f4dc657e7c5203749c89b727d04f6bde78917781",
+    "15": "ce635022d67df589afa8c0c9c1ad8e6f544cc57b70ede94c43c675ef68827707",
+    "16": "664d3adb0d4eda7ff5767c9114e84a3a80e827ddcf0e1783a0c943c6655cc131",
+    "17": "10699ccbe53a6a968c41e4d309c1d57f6245146a771095074c8c4a1efcf893bd",
+    "18": "62e050336f844f8134ea0994c58cc70c8e77a4f6d8a0ad25519b495417aeccc3",
+    "19": "97a661e1046412f716285b80a2071f49047a3f8bc7580fed3edda4060e384612"
+  },
+  "regenerated_batch_hashes_by_stream": {
+    "10": "fd9fd7cfd0c37b0187d5b20075fa6425012aa6ab454bd65b71cf4be57a74de82",
+    "11": "1e9f83f2eb362d48cf7233822ddd1f2e8722cdd1f5b7ba600c2159177d805f49",
+    "12": "ff8de8727d15481094832301fbfce60ef8c75db081fd5c8c28c5ab83a6dd30c7",
+    "13": "f2323ba46be48a26cd44e45a5768b8a48dbc51a8c1d615f015491af71b2aa562",
+    "14": "655a4f7080358abe901fcd5b7740d1bea73bcfcc385706b214857694d329f39c",
+    "15": "52307764c03da69c79ba3eccc34ce465c0ddbdda2364f52b57352c6bd4c5958c",
+    "16": "396ef1eea6cc4a501aa62e78728fd2f3f288ed03e897c3a9c5605d2af845790c",
+    "17": "10015cfdc691b7756458fca95d66abd543c699b20d6f808092ed2b99638fd165",
+    "18": "ad977f97c077f3fb57f03f078ddc33540707212673b13442dbfdcec2e6847213",
+    "19": "1200f97ddfa55a0574dc1f12bab37cab8c565b11710ddfaf348972784fc2f401"
+  },
+  "row_constant_initialization_and_column_constant_stream_verified": true,
+  "models_by_origin": {
+    "new": 180,
+    "reused_diagonal": 20
+  },
+  "checks": [
+    {
+      "init_seed": 10,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 10,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 11,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 12,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 13,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 14,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 15,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 16,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 17,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 18,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 10,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 10,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 11,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 11,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 12,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 12,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 13,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 13,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 14,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 14,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 15,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 15,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 16,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 16,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 17,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 17,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 18,
+      "mode": "released",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 18,
+      "mode": "complete",
+      "origin": "new",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 19,
+      "mode": "released",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    },
+    {
+      "init_seed": 19,
+      "stream_seed": 19,
+      "mode": "complete",
+      "origin": "reused_diagonal",
+      "checkpoint_hash_verified": true,
+      "test_validation_and_ablation_metrics_exact": true,
+      "no_adaptation_value_invariance": true
+    }
+  ],
+  "verifier_sha256": "df78683dc6771614f2757ee9f65b1514c63a07bb012f9e1c5197d75be71ba967"
+}

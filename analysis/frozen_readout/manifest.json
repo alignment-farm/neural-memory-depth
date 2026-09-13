@@ -1,0 +1,51 @@
+{
+  "files": {
+    "notes/FROZEN_READOUT_PROTOCOL.md": "65c444334f331b925af77833904a1a0e96938d54458b7d3e00800d80c8501ffb",
+    "scripts/probe_frozen_readout.py": "5b21aa1ba7f1b4ec8cf1016faeb7e09c9813ceacb6210d753b529baa570246ea",
+    "scripts/run_embedding_swap.py": "07b12cfe0f473b6204d6d1ba5d144ccb4f2168414ae7b60b8a273b7c67b51aee",
+    "scripts/run_group_swap.py": "5cabb2e71b75d26c31ea99cb429427393d1a244c5afe4459866ea0e5b9915d49",
+    "scripts/run_seed_separation.py": "84e0aef3843d409ead288f2456fdc557f02138712cd05497ab7de4d40438e1cf",
+    "scripts/run_refresh_comparison.py": "e9f6ef912788f8a5f9de179037f7d1757b3cb060a148ccfd242dd89961299a3b",
+    "scripts/run_recall_pilot.py": "de9150ce911cfc0d53065c3edf5f6dc1891c8037f404b351657a9248c0161ba4",
+    "scripts/check_graph_gradients.py": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030",
+    "analysis/embedding_swap/manifest.json": "3c154410b30281d5a6507fb96ddb6d4987bf514153b3d518071ef4122206ab11",
+    "analysis/embedding_swap/verification.json": "78c452a2d27590293eda4806096e787fffb72295c1017c24f1a9103fcb3f2df7"
+  },
+  "inputs": {
+    "analysis/embedding_swap/q11-k11-v16-t11.json": "c38356d44ed438c973493d19c8b3279af109567408f5f21239f9c4f8f8e66dba",
+    "models/embedding_swap/q11-k11-v16-t11-released.pt": "e696109e1311f84f4e3c464a9af3a977e70335c82e264e860cf6e1bf7ce2557e",
+    "models/embedding_swap/q11-k11-v16-t11-complete.pt": "38c860bce0627ea4d75db4ae4a1914c072db29b861d1129de44f29cc7947f0ba",
+    "analysis/embedding_swap/q11-k16-v11-t15.json": "12e80bfa602b5d150fe3bba6bee183e31294a188a20c00a9d6e3b0fd150975fe",
+    "models/embedding_swap/q11-k16-v11-t15-released.pt": "7615c621c70d03cb238ce181db407902d0cbbdc46dcf31414b2458ac09368d52",
+    "models/embedding_swap/q11-k16-v11-t15-complete.pt": "d7ebcf84d0692e7ad0ba8c01b3aa0b89311b07748fce70cbba13d062d0cbe222",
+    "analysis/embedding_swap/q11-k11-v11-t11.json": "ed8ea67c7a571ea8762d282bfe6bdf27481ae70f127640025391266592324f19",
+    "models/group_swap/m16-e11-r16-t11-released.pt": "637e91481812790db0724dea0365ac2d7ddcc031d1ac9fa2c55e16d9e94374c5",
+    "models/group_swap/m16-e11-r16-t11-complete.pt": "591092b681ca214f52629d96a3f76cd9ff288a257ab671f767335ddbe12727b7"
+  },
+  "cases": [
+    [
+      "value_confusion",
+      "q11-k11-v16",
+      11
+    ],
+    [
+      "key_confusion",
+      "q11-k16-v11",
+      15
+    ],
+    [
+      "successful_control",
+      "q11-k11-v11",
+      11
+    ]
+  ],
+  "torch": "2.14.0",
+  "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "fitting_dtype": "float64",
+  "feature_dtype": "float32",
+  "threads": 1,
+  "training_feature_order_seed": 8300,
+  "max_iter": 200,
+  "max_eval": 250,
+  "regularization": 0.0001
+}

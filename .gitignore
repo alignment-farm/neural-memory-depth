@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+models/
+.env
+.env.*
+!.env.example
+
+# External implementation checkout; restore the pinned revision via sources/README.md.
+/sources/Modular-TTT/

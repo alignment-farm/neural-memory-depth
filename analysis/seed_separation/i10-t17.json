@@ -1,0 +1,263 @@
+{
+  "chunk": 4,
+  "depth": 2,
+  "init_seed": 10,
+  "stream_seed": 17,
+  "steps": 600,
+  "tokens_per_run": 307200,
+  "origin": "new",
+  "training_batches_sha256": "10015cfdc691b7756458fca95d66abd543c699b20d6f808092ed2b99638fd165",
+  "parameters_per_model": 1196,
+  "initial_hashes": {
+    "released": "7ddb67873416a48022d26bc06b02a1e2c29bae560d833727c584f647991360a4",
+    "complete": "7ddb67873416a48022d26bc06b02a1e2c29bae560d833727c584f647991360a4"
+  },
+  "final_hashes": {
+    "released": "4d9eeb41bcf5084108d44d36c37086ba09b4938891ce3ddbf97f0016a32b55f4",
+    "complete": "4c8aaee8c5de21dcfeab3fbdb36302c8186860233a5b257bc648088008bfc2e3"
+  },
+  "first_step_max_gradient_difference": 6.988644599914551e-06,
+  "training_seconds": {
+    "released": 2.896995788323693,
+    "complete": 2.964152785745682
+  },
+  "history": [
+    {
+      "step": 1,
+      "train": {
+        "released": {
+          "loss": 2.092850923538208,
+          "gradient_norm_before_clip": 0.20613506436347961
+        },
+        "complete": {
+          "loss": 2.092850923538208,
+          "gradient_norm_before_clip": 0.20613642036914825
+        }
+      },
+      "training_seconds": {
+        "released": 0.005082457995740697,
+        "complete": 0.004895999998552725
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 2.088581420481205,
+          "accuracy": 0.125244140625,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 2.0885814130306244,
+          "accuracy": 0.125244140625,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 100,
+      "train": {
+        "released": {
+          "loss": 2.0814576148986816,
+          "gradient_norm_before_clip": 0.07575295120477676
+        },
+        "complete": {
+          "loss": 2.0814573764801025,
+          "gradient_norm_before_clip": 0.07576289027929306
+        }
+      },
+      "training_seconds": {
+        "released": 0.4866092510637827,
+        "complete": 0.49616237680311315
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 2.0804228857159615,
+          "accuracy": 0.125457763671875,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 2.0804230123758316,
+          "accuracy": 0.125457763671875,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 200,
+      "train": {
+        "released": {
+          "loss": 2.0797653198242188,
+          "gradient_norm_before_clip": 0.013299516402184963
+        },
+        "complete": {
+          "loss": 2.079765796661377,
+          "gradient_norm_before_clip": 0.013308873400092125
+        }
+      },
+      "training_seconds": {
+        "released": 0.9723216289712582,
+        "complete": 0.9916997928812634
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 2.0794091895222664,
+          "accuracy": 0.132476806640625,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 2.0794091522693634,
+          "accuracy": 0.132476806640625,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 300,
+      "train": {
+        "released": {
+          "loss": 2.0746355056762695,
+          "gradient_norm_before_clip": 0.045375723391771317
+        },
+        "complete": {
+          "loss": 2.0746049880981445,
+          "gradient_norm_before_clip": 0.04554226994514465
+        }
+      },
+      "training_seconds": {
+        "released": 1.4573792500887066,
+        "complete": 1.4879735908762086
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 2.075714699923992,
+          "accuracy": 0.1270751953125,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 2.0756887421011925,
+          "accuracy": 0.1270751953125,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 400,
+      "train": {
+        "released": {
+          "loss": 1.1369452476501465,
+          "gradient_norm_before_clip": 0.894477903842926
+        },
+        "complete": {
+          "loss": 1.1385939121246338,
+          "gradient_norm_before_clip": 0.885259211063385
+        }
+      },
+      "training_seconds": {
+        "released": 1.9428915742610116,
+        "complete": 1.9833361277997028
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 1.089675847440958,
+          "accuracy": 0.6038818359375,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 1.0917911976575851,
+          "accuracy": 0.602813720703125,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 500,
+      "train": {
+        "released": {
+          "loss": 0.004177231807261705,
+          "gradient_norm_before_clip": 0.014992328360676765
+        },
+        "complete": {
+          "loss": 0.0041976310312747955,
+          "gradient_norm_before_clip": 0.015165832825005054
+        }
+      },
+      "training_seconds": {
+        "released": 2.4196421151864342,
+        "complete": 2.4738677077693865
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 0.004215771041344851,
+          "accuracy": 1.0,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 0.004232229388435371,
+          "accuracy": 1.0,
+          "queries": 32768
+        }
+      }
+    },
+    {
+      "step": 600,
+      "train": {
+        "released": {
+          "loss": 0.0016415019053965807,
+          "gradient_norm_before_clip": 0.006010613404214382
+        },
+        "complete": {
+          "loss": 0.0016446633962914348,
+          "gradient_norm_before_clip": 0.00602110568434
+        }
+      },
+      "training_seconds": {
+        "released": 2.896995788323693,
+        "complete": 2.964152785745682
+      },
+      "validation": {
+        "released": {
+          "cross_entropy": 0.0017044774394889828,
+          "accuracy": 1.0,
+          "queries": 32768
+        },
+        "complete": {
+          "cross_entropy": 0.001707269355392782,
+          "accuracy": 1.0,
+          "queries": 32768
+        }
+      }
+    }
+  ],
+  "test": {
+    "released": {
+      "cross_entropy": 0.0017039206295245976,
+      "accuracy": 1.0,
+      "queries": 33792
+    },
+    "complete": {
+      "cross_entropy": 0.0017065541240189111,
+      "accuracy": 1.0,
+      "queries": 33792
+    }
+  },
+  "no_write_test": {
+    "released": {
+      "cross_entropy": 6.31387337771329,
+      "accuracy": 0.1259469696969697,
+      "queries": 33792
+    },
+    "complete": {
+      "cross_entropy": 6.323384790709524,
+      "accuracy": 0.1259469696969697,
+      "queries": 33792
+    }
+  },
+  "checkpoints": {
+    "released": {
+      "path": "models/seed_separation/i10-t17-released.pt",
+      "sha256": "6ac863e604a6e092090293e9828a0bb1e703b555b727384e6eeb7220d4ecf12d"
+    },
+    "complete": {
+      "path": "models/seed_separation/i10-t17-complete.pt",
+      "sha256": "2aff43fcaaeae52878d5fb8f7046fce8dc8ded78742a1bfeed1c6ac9eab6afbb"
+    }
+  }
+}

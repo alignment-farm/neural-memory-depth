@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "task": "eight-pair associative recall; disjoint permutation splits",
+    "data_split_seed": 20260913,
+    "splits": {
+      "train": {
+        "episodes": 32000,
+        "sha256": "9e1d93f514b016773bca208673cbc7491f32b8cdd076abd2f2e1a49503926458"
+      },
+      "validation": {
+        "episodes": 4096,
+        "sha256": "a502596af331c3b3e140c1aa1bfe8835eb22d127a1409cdd32df2da6ddbb12b1"
+      },
+      "test": {
+        "episodes": 4224,
+        "sha256": "c71e04a0db66eddae6b59d7a5ce7e4bfb81fc395b3af4f6d90f9272498e8222d"
+      }
+    },
+    "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+    "script_sha256": "1799bb3f1830ed8ee74b459fbca21e2e7baa7ff06d2c5287643fe41cc4731518",
+    "engine_script_sha256": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030",
+    "torch": "2.14.0",
+    "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+    "device": "cpu",
+    "dtype": "float32",
+    "threads": 1,
+    "protocol_sha256": null
+  },
+  "pairs": [
+    {
+      "depth": 1,
+      "seed": 99,
+      "steps": 10,
+      "tokens_per_run": 5120,
+      "parameters_per_model": 874,
+      "initial_hashes": {
+        "released": "d8c5c835a88c14050cbaa34c68bd8f111a8ef95f661518044c381c2663d71a9c",
+        "complete": "d8c5c835a88c14050cbaa34c68bd8f111a8ef95f661518044c381c2663d71a9c"
+      },
+      "final_hashes": {
+        "released": "5cb54fa0689ebd5ffc07aff401347eec41f13c936aae4d3126a0dbbc04cd4dc2",
+        "complete": "5cb54fa0689ebd5ffc07aff401347eec41f13c936aae4d3126a0dbbc04cd4dc2"
+      },
+      "first_step_max_gradient_difference": 0.0,
+      "training_seconds": {
+        "released": 0.0406784990336746,
+        "complete": 0.026876832969719544
+      },
+      "history": [
+        {
+          "step": 1,
+          "train": {
+            "released": {
+              "loss": 2.22379994392395,
+              "gradient_norm_before_clip": 2.805713415145874
+            },
+            "complete": {
+              "loss": 2.22379994392395,
+              "gradient_norm_before_clip": 2.805713415145874
+            }
+          },
+          "training_seconds": {
+            "released": 0.01656000001821667,
+            "complete": 0.003044459008378908
+          }
+        },
+        {
+          "step": 10,
+          "train": {
+            "released": {
+              "loss": 2.0958847999572754,
+              "gradient_norm_before_clip": 1.903432011604309
+            },
+            "complete": {
+              "loss": 2.0958847999572754,
+              "gradient_norm_before_clip": 1.903432011604309
+            }
+          },
+          "training_seconds": {
+            "released": 0.0406784990336746,
+            "complete": 0.026876832969719544
+          }
+        }
+      ]
+    },
+    {
+      "depth": 2,
+      "seed": 99,
+      "steps": 10,
+      "tokens_per_run": 5120,
+      "parameters_per_model": 1196,
+      "initial_hashes": {
+        "released": "281bbfdca1ea58a886acd2252d239e903b99b2fa1eb89f6d5dbb18d2dd59814a",
+        "complete": "281bbfdca1ea58a886acd2252d239e903b99b2fa1eb89f6d5dbb18d2dd59814a"
+      },
+      "final_hashes": {
+        "released": "a356b8e075380c9307dc794496a4e7189ff119c36fcfa9fcdc6c15d027a504f5",
+        "complete": "9eac278096a6339c443adc10adcbc93c826fefbea822da09fb58c693abdaca01"
+      },
+      "first_step_max_gradient_difference": 2.812594175338745e-06,
+      "training_seconds": {
+        "released": 0.04743591800797731,
+        "complete": 0.04818670797976665
+      },
+      "history": [
+        {
+          "step": 1,
+          "train": {
+            "released": {
+              "loss": 2.0843539237976074,
+              "gradient_norm_before_clip": 0.14721311628818512
+            },
+            "complete": {
+              "loss": 2.0843539237976074,
+              "gradient_norm_before_clip": 0.1472129076719284
+            }
+          },
+          "training_seconds": {
+            "released": 0.005034333007642999,
+            "complete": 0.005092125007649884
+          }
+        },
+        {
+          "step": 10,
+          "train": {
+            "released": {
+              "loss": 2.07895565032959,
+              "gradient_norm_before_clip": 0.24804678559303284
+            },
+            "complete": {
+              "loss": 2.0789551734924316,
+              "gradient_norm_before_clip": 0.24804678559303284
+            }
+          },
+          "training_seconds": {
+            "released": 0.04743591800797731,
+            "complete": 0.04818670797976665
+          }
+        }
+      ]
+    }
+  ]
+}

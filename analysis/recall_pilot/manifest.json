@@ -1,0 +1,27 @@
+{
+  "task": "eight-pair associative recall; disjoint permutation splits",
+  "data_split_seed": 20260913,
+  "splits": {
+    "train": {
+      "episodes": 32000,
+      "sha256": "9e1d93f514b016773bca208673cbc7491f32b8cdd076abd2f2e1a49503926458"
+    },
+    "validation": {
+      "episodes": 4096,
+      "sha256": "a502596af331c3b3e140c1aa1bfe8835eb22d127a1409cdd32df2da6ddbb12b1"
+    },
+    "test": {
+      "episodes": 4224,
+      "sha256": "c71e04a0db66eddae6b59d7a5ce7e4bfb81fc395b3af4f6d90f9272498e8222d"
+    }
+  },
+  "source_revision": "33afe26100f8590272940e55dbee5067a8040da6",
+  "script_sha256": "de9150ce911cfc0d53065c3edf5f6dc1891c8037f404b351657a9248c0161ba4",
+  "engine_script_sha256": "9432ac4c142501480f83aec8b3ec899c6f5338d62c77d946196a3db3c23b2030",
+  "torch": "2.14.0",
+  "torch_git": "08187d9e0fba026dc8217405802ab5381dc88d90",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "protocol_sha256": "7ccacaf4d88e97d8f7be647a46496fc8b73b73ad18949da2e8c66cac5c712182"
+}

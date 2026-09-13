@@ -1,0 +1,129 @@
+{
+  "all_group_origins_verified": true,
+  "pure_donor_training_checks": [
+    {
+      "donor": 11,
+      "stream": 99,
+      "steps": 10,
+      "exact_training_parity": true
+    },
+    {
+      "donor": 16,
+      "stream": 99,
+      "steps": 10,
+      "exact_training_parity": true
+    }
+  ],
+  "source_definitions": [
+    {
+      "path": "modular_ttt/modular_ttt/utils/utils.py",
+      "sha256": "eda2b51e168fb53df404a0e965587b041a02ea16fcf36ed4963036aeeb5a6762",
+      "definitions": [
+        "contiguous"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/layer/linear.py",
+      "sha256": "d8d02dc9d3e71aa08160255896c5900468b40edaad3bd3ca0df06ad9ba3f74a9",
+      "definitions": [
+        "LinearGradFn",
+        "linear_grad"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/layer/act.py",
+      "sha256": "ced1579c10ef84946f9d3f7b7245af4ae61c56505e584b8dff5cb9084a85baea",
+      "definitions": [
+        "_get_act_grad",
+        "ActGradFn",
+        "act_grad"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/grad/loss/mse.py",
+      "sha256": "18c77cf43f01e80126fb43a1681859746e9c47ecb7ac78ab7e730d8d0a4369b5",
+      "definitions": [
+        "MSELossGradFn",
+        "mse_loss_grad"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/loss/__init__.py",
+      "sha256": "efbe29c314c2342940ee80b09c359c5b7915309f34562e76e499b2cba28a89ae",
+      "definitions": [
+        "get_loss_fn"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/optim/base_optim.py",
+      "sha256": "f565a46f10d08eaf31b46f0799d2378cd6a6ffc8afdb367f3b610cf06a4e2b54",
+      "definitions": [
+        "TTTOptBase"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/optim/sgd.py",
+      "sha256": "c4752db8d008b685c13ca6b222bdc88072063f8aa7ceb8fe052e79469a30e9ee",
+      "definitions": [
+        "TTTSGD"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/optim/__init__.py",
+      "sha256": "bab07b8f373da44cf3d27566cd92283475144586384dfb191505cdc0d0851d03",
+      "definitions": [
+        "get_opt_fn"
+      ]
+    },
+    {
+      "path": "xopes/xopes/ops/modular_ttt/__init__.py",
+      "sha256": "36c3abaa3b4edd0287b805abf21542c9041717c9bf25ba8c9af32a6dcf673ad5",
+      "definitions": [
+        "lightning_attn_func_warpper",
+        "modular_ttt_func"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/modules/ttt_linear.py",
+      "sha256": "f0fae69ffde3553a1a5feab48e0514d185e90415771ed6c0f71a14eb535b17ec",
+      "definitions": [
+        "TTTLinear"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/modules/ttt_act.py",
+      "sha256": "5f3a1d4037414f3300f27b4707389fd7196480c60ce3f9e4b95e575302d6e360",
+      "definitions": [
+        "get_ttt_activation_fn",
+        "TTTAct"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/utils/__init__.py",
+      "sha256": "c9316fad28994709003f7f7f2046793f76814ff339c4864cf4b71f7c65b7df4f",
+      "definitions": [
+        "get_chunk_indices"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/memory/graph_registry.py",
+      "sha256": "0f9e69b1dad4dd9bb63908abc51d884a8564cdbd08caeae635ff62eee6ebe6fe",
+      "definitions": [
+        "GraphNodeBuildContext",
+        "register_graph_node",
+        "get_graph_node_builder",
+        "build_linear_node",
+        "build_act_node"
+      ]
+    },
+    {
+      "path": "modular_ttt/modular_ttt/ttt/memory/graph_memory.py",
+      "sha256": "541573cfa03e2ab4ecf88e57914da5118a153328af58f284094777ef8219d23b",
+      "definitions": [
+        "TTTGraphNode",
+        "TTTGraphMemory"
+      ]
+    }
+  ],
+  "script_sha256": "828f36e6c6c94ccc9eccc20d9888afceab2c2e0a44a75ffa9fbc447ce4fe5468"
+}
